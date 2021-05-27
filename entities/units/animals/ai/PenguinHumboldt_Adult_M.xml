@@ -1,0 +1,32 @@
+<BFTypedBinder binderType="PenguinHumboldt_Adult_M">
+   <types>
+      <entity>
+         <actor>
+            <animal>
+               <Aves>
+                  <Sphenisciformes>
+                     <Spheniscidae>
+                        <PenguinHumboldt>
+                           <PenguinHumboldt_Adult>
+                              <PenguinHumboldt_Adult_M/>
+                           </PenguinHumboldt_Adult>
+                        </PenguinHumboldt>
+                     </Spheniscidae>
+                  </Sphenisciformes>
+               </Aves>
+            </animal>
+         </actor>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity/>
+   </instance>
+   <shared>
+      <UIToggleButton template="adopt">
+         <on>
+            <event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="PenguinHumboldt_Adult_M"/>
+         </on>
+      </UIToggleButton>
+      <BFAIEntityDataShared b_Male="1" f_adoptCount="rand(1,2)"/>
+   </shared>
+</BFTypedBinder>

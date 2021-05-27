@@ -1,0 +1,32 @@
+<BFTypedBinder binderType="PenguinYellowEyed_Adult_M">
+   <types>
+      <entity>
+         <actor>
+            <animal>
+               <Aves>
+                  <Sphenisciformes>
+                     <Spheniscidae>
+                        <PenguinYellowEyed>
+                           <PenguinYellowEyed_Adult>
+                              <PenguinYellowEyed_Adult_M/>
+                           </PenguinYellowEyed_Adult>
+                        </PenguinYellowEyed>
+                     </Spheniscidae>
+                  </Sphenisciformes>
+               </Aves>
+            </animal>
+         </actor>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity/>
+   </instance>
+   <shared>
+      <UIToggleButton template="adopt">
+         <on>
+            <event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="PenguinYellowEyed_Adult_M"/>
+         </on>
+      </UIToggleButton>
+      <BFAIEntityDataShared b_Male="1" f_adoptCount="rand(1,2)"/>
+   </shared>
+</BFTypedBinder>

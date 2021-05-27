@@ -1,0 +1,7 @@
+<BFParticleDictionary>
+     <PenguinBlackfoEmote>
+      <Conditions>
+         <BFParticleDefinition xmlFile="entities\units\animals\PenguinBlackfo\PenguinBlackfoEmote.xml" removeTime="10.0"/>
+      </Conditions>
+   </PenguinBlackfoEmote>
+   </BFParticleDictionary>

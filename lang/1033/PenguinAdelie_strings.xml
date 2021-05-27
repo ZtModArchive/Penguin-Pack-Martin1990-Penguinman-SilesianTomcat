@@ -1,0 +1,163 @@
+<ZT2Strings>
+<entityname>
+   <!--animal names-->
+      <PenguinAdelie>Adelie Penguin</PenguinAdelie>
+      <PenguinAdelie_stt>Adelie penguin</PenguinAdelie_stt>
+      <PenguinAdelie_lower>the Adelie penguin</PenguinAdelie_lower>
+      <PenguinAdelie_ltt>
+         <color r="255" g="248" b="178">
+            <b>Adelie Penguin</b>
+         </color>
+         <br/>
+         Click to select and then place the Adelie Penguin.
+      </PenguinAdelie_ltt>
+<!--egg names-->
+      <PenguinAdelie_Egg>Adelie Penguin egg</PenguinAdelie_Egg>
+      <PenguinAdelie_Egg_stt>Adelie penguin egg</PenguinAdelie_Egg_stt>
+      <PenguinAdelie_Egg_lower>the adelie penguin egg</PenguinAdelie_Egg_lower>
+      <PenguinAdelie_Egg_ltt>
+         <color r="255" g="248" b="178">
+            <b>Adelie Penguin Egg</b>
+         </color>
+         <br/>
+         Click this icon to select the Adelie penguin egg. Move the cursor over the world and click to place the little Adelie penguin egg.
+       </PenguinAdelie_Egg_ltt>
+<!--gift names-->
+      <PenguinAdelie_Gift>Adelie Penguin Backpack</PenguinAdelie_Gift>
+      <PenguinAdelie_Gift_stt>Adelie penguin backpack</PenguinAdelie_Gift_stt>
+      <PenguinAdelie_Gift_lower>the adelie penguin backpack</PenguinAdelie_Gift_lower>
+      <PenguinAdelie_Gift_ltt>
+         <color r="255" g="248" b="178">
+            <b>Adelie Penguin Toy</b>
+         </color>
+         <br/>Guests who enjoy watching the adelie penguin will buy this gift.
+      </PenguinAdelie_Gift_ltt>
+   </entityname>
+ <zoopedia_penguinadelie>
+  <entry>Penguin, Adelie</entry> 
+ <text>
+  <cell pady="0" width="1000" /> 
+  <p /> 
+  <cell width="260" /> 
+ <cell width="640" height="320" bgimg="ui/zoopedia/topCellBg.dds">
+ <cell width="600" padx="20" pady="20">
+ <cell width="96" bgimg="ui/zoopedia/littleBox-128.tga">
+  <img src="entities/units/animals/PenguinAdelie/PenguinAdelie_icon.dds" sx="0" sy="0" sw="64" sh="64" height="96" width="96" /> 
+  </cell>
+ <cell width="16">
+  <img src="ui/zoopedia/icon_male.dds" sx="0" sy="0" sw="64" sh="64" width="16" height="16" /> 
+  </cell>
+ <cell width="16">
+  <img src="ui/zoopedia/icon_female.dds" sx="0" sy="0" sw="64" sh="64" width="16" height="16" /> 
+  </cell>
+  <cell width="156" /> 
+ <cell width="128">
+ <color r="255" g="255" b="255">
+  Tundra 
+  <br /> 
+  </color>
+  <img src="ui/icon_biomes/icon_tundra.dds" sx="0" sy="0" sw="128" sh="128" width="96" height="96" /> 
+  </cell>
+ <cell width="128">
+ <color r="255" g="255" b="255">
+  Antarctica   
+  <br /> 
+  </color>
+  <img src="ui/icon_maplocations/Tundra_Antarctica.dds" sx="0" sy="0" sw="256" sh="256" width="96" height="96" /> 
+  </cell>
+  <br /> 
+ <cell width="284">
+ <color r="255" g="255" b="255">
+  Class: Birds 
+  <i>(Aves)</i> 
+  <br /> 
+  Order: Penguins 
+  <i>(Sphenisciformes)</i> 
+  <br /> 
+  Family: Penguins 
+  <i>(Spheniscidae)</i> 
+  <br /> 
+  Genus: 
+  <i>Pygoscelis</i> 
+  <br /> 
+  Species: 
+  <i>adelie</i> 
+  <br /> 
+  Conservation Status: 
+  <color r="255" g="204" b="51">Lower risk </color> 
+  </color>
+  </cell>
+ <cell width="256" pady="10">
+  <img src="UI/zoopedia/biome/tundra_zoopedia_biomebrush.dds" sx="0" sy="0" sw="256" sh="85" /> 
+  </cell>
+  </cell>
+  </cell>
+  <p /> 
+  <p /> 
+  <cell width="260" /> 
+ <cell width="300">
+ <cell width="64">
+  <img src="ui/zoopedia/fact-icon64.tga" sx="0" sy="0" sw="64" sh="64" /> 
+  </cell>
+ <cell width="176">
+ <color r="255" g="255" b="255">
+  <font name="arial" size="12" shadowx="2" shadowy="1" shadowa="50">Fun Adelie Penguin Facts</font> 
+  </color>
+  </cell>
+  <p /> 
+ <cell width="280" bgimg="ui/zoopedia/factBG.tga" padx="10">
+  <p /> 
+ <cell width="32" pady="10">
+  <img src="ui/zoopedia/fact-bullet.tga" sx="0" sy="0" sw="32" sh="32" /> 
+  </cell>
+ <cell width="202" pady="10">
+  <color r="255" g="255" b="255">Population: 4.2 million pairs</color> 
+  </cell>
+  <br /> 
+ <cell width="32" pady="10">
+  <img src="ui/zoopedia/fact-bullet.tga" sx="0" sy="0" sw="32" sh="32" /> 
+  </cell>
+ <cell width="202" pady="10">
+  <color r="255" g="255" b="255">Breeding Season: summer(Deccember to February)
+</color> 
+  </cell>
+  <br /> 
+ <cell width="32" pady="10">
+  <img src="ui/zoopedia/fact-bullet.tga" sx="0" sy="0" sw="32" sh="32" /> 
+  </cell>
+ <cell width="202" pady="10">
+  <color r="255" g="255" b="255">Migratory: Returns to natal grounds to breed</color> 
+  </cell>
+  <br /> 
+ <cell width="32" pady="10">
+  <img src="ui/zoopedia/fact-bullet.tga" sx="0" sy="0" sw="32" sh="32" /> 
+  </cell>
+ <cell width="202" pady="10">
+  <color r="255" g="255" b="255">Predators: McCormick skua, Sheathbill, Giant petrel, Leopard seal</color> 
+  </cell>
+  </cell>
+  </cell>
+ <cell width="340">
+  <color r="255" g="248" b="178">To unlock the adelie penguin in challenge or campaign games, you must earn a 2-star zoo fame rating for your zoo.</color> 
+  <p /> 
+  Adelie penguins are the smallest of the penguins living on the Antarctica continent. They are about 28 inches (70 cm) tall and weigh about 8 to 9 lbs. (4 kilogram). Adelie penguins were named after the wife of a French explorer in the 1830s. These penguins nest and breed on the rocky, ice-free beaches in large colonies of ten thousands of birds. There are over 2.5 million breeding pairs living in the Antarctica region. 
+  <p /> 
+  These penguins are one of the stiff-tailed penguins with long tail feathers that drags the ground when they walk. They have a white belly with a black head and back. They have a white ring around the eye. Feathers cover most of the short beak. They are powerful swimmers and can jump straight out of the water onto the land. They often move on the land by sledding down hills on their bellies. 
+
+  
+  <p /> 
+Adelies build their nests of pebbles on the rocky beaches of Antarctica. After bonding and mating, the female lays 2 eggs in the nest. The male then takes over the job of keeping the egg warm by holding it on the tops of his feet or laying on the egg in the nest. The female goes to feed and returns in three weeks to help with the chicks. When parents return with food for the chicks it will run from the chicks making the chicks chase and catch them for the food. Often only one chick will survive. Their chicks grow the fastest of all penguins. 
+
+<p />
+Adelie penguins have to defend their nests from other penguins who try to steal pebbles, stones, and other nest building materials. They don't drink water but eat snow. They have a gland in their nose that takes the salt out of the ocean water that they swallow when catching fish and eating fish while in the water.
+</cell>
+  <cell width="260" /> 
+ <cell width="620">
+  Content provided courtesy of http://www.siec.k12.in.us/~west/proj/penguins/adelie.html
+ <u>
+  <color r="255" g="231" b="135">Coded and disigned by Penguinman. Recolored by Electric Eel. With help from Ape II, and Silesiantomcat.</color> 
+  </u>
+  </cell>
+  </text>
+  </zoopedia_penguinadelie>
+</ZT2Strings>

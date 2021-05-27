@@ -1,0 +1,177 @@
+<ZT2Strings>
+<entityname>
+   <!--animal names-->
+      <PenguinKing>King Penguin</PenguinKing>
+      <PenguinKing_stt>King penguin</PenguinKing_stt>
+      <PenguinKing_lower>the King penguin</PenguinKing_lower>
+      <PenguinKing_ltt>
+         <color r="255" g="248" b="178">
+            <b>King Penguin</b>
+         </color>
+         <br/>
+         Click to select and then place the  King Penguin.
+      </PenguinKing_ltt>
+<!--egg names-->
+      <PenguinKing_Egg>King Penguin egg</PenguinKing_Egg>
+      <PenguinKing_Egg_stt>King penguin egg</PenguinKing_Egg_stt>
+      <PenguinKing_Egg_lower>the King penguin egg</PenguinKing_Egg_lower>
+      <PenguinKing_Egg_ltt>
+         <color r="255" g="248" b="178">
+            <b>King Penguin Egg</b>
+         </color>
+         <br/>
+         Click this icon to select the King penguin egg. Move the cursor over the world and click to place the little King penguin egg.
+       </PenguinKing_Egg_ltt>
+<!--gift names-->
+      <PenguinKing_Gift>King Penguin Toy</PenguinKing_Gift>
+      <PenguinKing_Gift_stt>King penguin toy</PenguinKing_Gift_stt>
+      <PenguinKing_Gift_lower>the king penguin Toy</PenguinKing_Gift_lower>
+      <PenguinKing_Gift_ltt>
+         <color r="255" g="248" b="178">
+            <b>King Penguin Toy</b>
+         </color>
+         <br/>Guests who enjoy watching the king penguin will buy this gift.
+      </PenguinKing_Gift_ltt>
+   </entityname>
+ <zoopedia_penguinking>
+  <entry>Penguin, King</entry> 
+ <text>
+  <cell pady="0" width="1000" /> 
+  <p /> 
+  <cell width="260" /> 
+ <cell width="640" height="320" bgimg="ui/zoopedia/topCellBg.dds">
+ <cell width="600" padx="20" pady="20">
+<cell width="284">
+ <cell width="96" bgimg="ui/zoopedia/littleBox-128.tga">
+  <img src="entities/units/animals/PenguinKing/PenguinKing_icon.dds" sx="0" sy="0" sw="64" sh="64" height="96" width="96" /> 
+  </cell>
+ <cell width="16">
+  <img src="ui/zoopedia/icon_male.dds" sx="0" sy="0" sw="64" sh="64" width="16" height="16" /> 
+  </cell>
+ <cell width="16">
+  <img src="ui/zoopedia/icon_female.dds" sx="0" sy="0" sw="64" sh="64" width="16" height="16" /> 
+  </cell>
+  <cell width="156" /> 
+<br/>   
+                  <cell width="32" pady="0">               
+                     <img src="ui/zoopedia/lowrisk.dds" sx="0" sy="0" sw="64" sh="64" width="32" height="32"/>
+                  </cell>                 
+                  <cell width="224" padx="10" pady="0">
+                     <color r="255" g="255" b="255">
+                     Conservation Status:
+                     <br/>
+                        <color r="170" g="255" b="0">
+                     Lower Risk
+                        </color>
+                     </color>                  
+                  </cell>
+                </cell>
+ <cell width="128">
+ <color r="255" g="255" b="255">
+  Tundra 
+  <br /> 
+  </color>
+  <img src="ui/icon_biomes/icon_tundra.dds" sx="0" sy="0" sw="128" sh="128" width="96" height="96" /> 
+  </cell>
+ <cell width="128">
+ <color r="255" g="255" b="255">
+  Sub-Antarctic island groups  
+  <br /> 
+  </color>
+  <img src="ui/icon_maplocations/Tundra_Subantarctica.dds" sx="0" sy="0" sw="256" sh="256" width="96" height="96" /> 
+  </cell>
+  <br /> 
+ <cell width="284">
+ <color r="255" g="255" b="255">
+  Class: Birds 
+  <i>(Aves)</i> 
+  <br /> 
+  Order: Penguins 
+  <i>(Sphenisciformes)</i> 
+  <br /> 
+  Family: Penguins 
+  <i>(Spheniscidae)</i> 
+  <br /> 
+  Genus: 
+  <i>Aptenodytes</i> 
+  <br /> 
+  Species: 
+  <i>patagonica</i> 
+   
+  </color>
+  </cell>
+ <cell width="256" pady="10">
+  <img src="UI/zoopedia/biome/tundra_zoopedia_biomebrush.dds" sx="0" sy="0" sw="256" sh="85" /> 
+  </cell>
+  </cell>
+  </cell>
+  <p /> 
+  <p /> 
+  <cell width="260" /> 
+ <cell width="300">
+ <cell width="64">
+  <img src="ui/zoopedia/fact-icon64.tga" sx="0" sy="0" sw="64" sh="64" /> 
+  </cell>
+ <cell width="176">
+ <color r="255" g="255" b="255">
+  <font name="arial" size="12" shadowx="2" shadowy="1" shadowa="50">Fun King Penguin Facts</font> 
+  </color>
+  </cell>
+  <p /> 
+ <cell width="280" bgimg="ui/zoopedia/factBG.tga" padx="10">
+  <p /> 
+ <cell width="32" pady="10">
+  <img src="ui/zoopedia/fact-bullet.tga" sx="0" sy="0" sw="32" sh="32" /> 
+  </cell>
+ <cell width="202" pady="10">
+  <color r="255" g="255" b="255">The King penguin is the worlds second largest penguin behind the closely related Emperor.</color> 
+  </cell>
+  <br /> 
+ <cell width="32" pady="10">
+  <img src="ui/zoopedia/fact-bullet.tga" sx="0" sy="0" sw="32" sh="32" /> 
+  </cell>
+ <cell width="202" pady="10">
+  <color r="255" g="255" b="255">Unlike many other penguins, the King penguin runs with its feet as opposed to hopping while on land.
+</color> 
+  </cell>
+  <br /> 
+ <cell width="32" pady="10">
+  <img src="ui/zoopedia/fact-bullet.tga" sx="0" sy="0" sw="32" sh="32" /> 
+  </cell>
+ <cell width="202" pady="10">
+  <color r="255" g="255" b="255">Kings breed in colonies of as many as 10,000 individuals with each mating pair aggressively guarding their own space.</color> 
+  </cell>
+  <br /> 
+ <cell width="32" pady="10">
+  <img src="ui/zoopedia/fact-bullet.tga" sx="0" sy="0" sw="32" sh="32" /> 
+  </cell>
+ <cell width="202" pady="10">
+  <color r="255" g="255" b="255">King penguins do not build nests, instead they tuck their single egg under their bellies while resting it on their feet.</color> 
+  </cell>
+  </cell>
+  </cell>
+ <cell width="340">
+  <color r="255" g="248" b="178">To unlock the king penguin in challenge or campaign games, you must earn a 2-star zoo fame rating for your zoo.</color> 
+  <p /> 
+  King penguins breed on seven sub-Antarctic island groups with large populations on the Falkland Islands, Macquarie Islands, Heard Island, Iles Crozet and Marion island. They are not considered to be migratory. Despite their scientific name 'patagonica,' there is no evidence that they ever lived in Patagonia. Kings have been exploited in the past, but thankfully their numbers have increased in several localities and their conservation status now seems secure. 
+  <p /> 
+  Distinctive features of the King penguin include a silvery-grey back with a blackish-brown head decorated with striking ear patches of bright golden-orange feathers. They are similar in appearance to the Emperor penguin but can be identified by the orange coloring on their breasts, more slender bodies and longer bills. As are most penguins, males and females are monomorphic, meaning they are similar in both size and appearance with behavioral clues providing the best means of identification. 
+
+  
+  <p /> 
+King penguins feed by deep water pursuit-diving, using their flippers to propel themselves to depths of several hundred feet. Dives may last 15 minutes or more. Their diet includes small fish and squid, krill, and plankton. At sea, the key predators of King penguins are the Leopard seals and Killer whales who wait beneath the surface near the shore for unsuspecting birds. Opportunistic shore birds such as: skuas, sheathbills and Giant petrels often raid the colonies on land to take eggs and young birds when unattended by adults. 
+
+<p />
+King penguin colonies are established on beaches, valleys and glacial moraines free of snow and ice; they prefer level ground near the sea. Highly gregarious birds, breeding Kings prefer to be in close proximity to each other. They generally avoid full-scale fighting although unwanted visitors may be warned off with a flipper slap or a peck. Immature and non-breeding birds do not associate with the breeding pairs, rather they disperse, traveling far from the breeding localities to hunt for food. <p />
+Kings are unique in that they have an unusually long breeding season. At any one time chicks of various ages are present in the colonies as eggs are laid anytime from November through April. From courtship through hatching of the eggs to the fledging of the chick may take 14 months or more making annual breeding impossible. Like the Emperors, King penguins' eggs are incubated on the adults' feet and not in nests. Both parents share in the care of the egg which takes approximately five weeks to hatch. Incubating birds are basically immobile although they can shuffle along slowly to avoid lumbering Southern Elephant seals which occasionally wander through the colonies. Once hatched, the dark brown downy chicks fast for long periods of time between meals while the adults are away feeding at sea. Chicks are reared right through the winter (huddling in 'creches' or nursery groups to keep warm) and only fledge the following summer. Early explorers erroneously thought King chicks to be a separate species from the adults calling them "Woolly penguins."
+</cell>
+  <cell width="260" /> 
+ <cell width="620">
+   
+ <u>
+  <color r="255" g="231" b="135">Recoloured and coded animal by Roman Kocourek-Silesian Tomcat</color> 
+  </u>
+  </cell>
+  </text>
+  </zoopedia_penguinking>
+</ZT2Strings>

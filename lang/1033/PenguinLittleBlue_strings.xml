@@ -1,0 +1,160 @@
+<ZT2Strings>
+<entityname>
+   <!--animal names-->
+      <PenguinLittleBlue>Little Blue Penguin </PenguinLittleBlue>
+      <PenguinLittleBlue_stt>Little Blue Penguin </PenguinLittleBlue_stt>
+      <PenguinLittleBlue_lower>the Little Blue Penguin</PenguinLittleBlue_lower>
+      <PenguinLittleBlue_ltt>
+         <color r="255" g="248" b="178">
+            <b>Little Blue Penguin </b>
+         </color>
+         <br/>
+         Click to select and then place the Little Blue Penguin, made by martin1990
+      </PenguinLittleBlue_ltt>
+<!--egg names-->
+      <PenguinLittleBlue_Egg>Little Blue Penguin egg</PenguinLittleBlue_Egg>
+      <PenguinLittleBlue_Egg_stt>Little blue penguin egg</PenguinLittleBlue_Egg_stt>
+      <PenguinLittleBlue_Egg_lower>the little blue penguin egg</PenguinLittleBlue_Egg_lower>
+      <PenguinLittleBlue_Egg_ltt>
+         <color r="255" g="248" b="178">
+            <b>Little Blue Penguin Egg</b>
+         </color>
+         <br/>
+         Click this icon to select the little blue penguin egg. Move the cursor over the world and click to place the little blue penguin egg.
+       </PenguinLittleBlue_Egg_ltt>
+   </entityname>
+ <zoopedia_penguinlittleblue>
+  <entry>Penguin, Little Blue</entry> 
+ <text>
+  <cell pady="0" width="1000" /> 
+  <p /> 
+  <cell width="260" /> 
+ <cell width="640" height="320" bgimg="ui/zoopedia/topCellBg.dds">
+ <cell width="600" padx="20" pady="20">
+ <cell width="96" bgimg="ui/zoopedia/littleBox-128.tga">
+  <img src="entities/units/animals/PenguinLittleBlue/PenguinLittleBlue_icon.dds" sx="0" sy="0" sw="64" sh="64" height="96" width="96" /> 
+  </cell>
+ <cell width="16">
+  <img src="ui/zoopedia/icon_male.dds" sx="0" sy="0" sw="64" sh="64" width="16" height="16" /> 
+  </cell>
+ <cell width="16">
+  <img src="ui/zoopedia/icon_female.dds" sx="0" sy="0" sw="64" sh="64" width="16" height="16" /> 
+  </cell>
+  <cell width="156" /> 
+ <cell width="128">
+ <color r="255" g="255" b="255">
+  Scrub 
+  <br /> 
+  </color>
+  <img src="ui/icon_biomes/icon_scrub.dds" sx="0" sy="0" sw="128" sh="128" width="96" height="96" /> 
+  </cell>
+ <cell width="128">
+ <color r="255" g="255" b="255">
+  New Zealand 
+  <br /> 
+  </color>
+  <img src="ui/icon_maplocations/New_Zealand.dds" sx="0" sy="0" sw="256" sh="256" width="96" height="96" /> 
+  </cell>
+  <br /> 
+ <cell width="284">
+ <color r="255" g="255" b="255">
+  Class: Birds 
+  <i>(Aves)</i> 
+  <br /> 
+  Order: Penguins 
+  <i>(Sphenisciformes)</i> 
+  <br /> 
+  Family: Penguins 
+  <i>(Spheniscidae)</i> 
+  <br /> 
+  Genus: 
+  <i>Eudyptula</i> 
+  <br /> 
+  Species: 
+  <i>minor</i> 
+  <br /> 
+  Conservation Status: 
+  <color r="255" g="204" b="51">Lower risk - near threatened</color> 
+  </color>
+  </cell>
+ <cell width="256" pady="10">
+  <img src="UI/zoopedia/biome/scrub_zoopedia_biomebrush.dds" sx="0" sy="0" sw="256" sh="85" /> 
+  </cell>
+  </cell>
+  </cell>
+  <p /> 
+  <p /> 
+  <cell width="260" /> 
+ <cell width="300">
+ <cell width="64">
+  <img src="ui/zoopedia/fact-icon64.tga" sx="0" sy="0" sw="64" sh="64" /> 
+  </cell>
+ <cell width="176">
+ <color r="255" g="255" b="255">
+  <font name="arial" size="12" shadowx="2" shadowy="1" shadowa="50">Fun Little Blue Penguin Facts</font> 
+  </color>
+  </cell>
+  <p /> 
+ <cell width="280" bgimg="ui/zoopedia/factBG.tga" padx="10">
+  <p /> 
+ <cell width="32" pady="10">
+  <img src="ui/zoopedia/fact-bullet.tga" sx="0" sy="0" sw="32" sh="32" /> 
+  </cell>
+ <cell width="202" pady="10">
+  <color r="255" g="255" b="255">The blue or little penguin is the world's smallest penguin.</color> 
+  </cell>
+  <br /> 
+ <cell width="32" pady="10">
+  <img src="ui/zoopedia/fact-bullet.tga" sx="0" sy="0" sw="32" sh="32" /> 
+  </cell>
+ <cell width="202" pady="10">
+  <color r="255" g="255" b="255">Although quite common, its small size and unusual habits make it rarely seen.
+</color> 
+  </cell>
+  <br /> 
+ <cell width="32" pady="10">
+  <img src="ui/zoopedia/fact-bullet.tga" sx="0" sy="0" sw="32" sh="32" /> 
+  </cell>
+ <cell width="202" pady="10">
+  <color r="255" g="255" b="255">The Maori name for the Little penguin is "Korora".</color> 
+  </cell>
+  <br /> 
+ <cell width="32" pady="10">
+  <img src="ui/zoopedia/fact-bullet.tga" sx="0" sy="0" sw="32" sh="32" /> 
+  </cell>
+ <cell width="202" pady="10">
+  <color r="255" g="255" b="255">Six sub-species are recognised. However, the Little penguins are more often divided into two sub-species - Little, or Fairy penguins and the White-flippered penguin. White-flippered penguins are identified by a white stripe around the edges of the flippers and are found in New Zealand.</color> 
+  </cell>
+  </cell>
+  </cell>
+ <cell width="340">
+  <color r="255" g="248" b="178">To unlock the Little blue penguin in challenge or campaign games, you must earn a 2-star zoo fame rating for your zoo.</color> 
+  <p /> 
+  The blue penguin stands just 25 cm tall and weighs a little over 1 kilogram. The plumage is slate-blue with a bright white belly. Juveniles are indistinguishable from adults. Both sexes are alike, although the male is a little heavier and usually has a larger bill.CallBlue penguins make a variety of calls to keep in contact at sea (barks), declare territory and advertise for mates (brays) and to let the neighbours know they are home (croon). The only call chicks make is a high pitch peeping as they beg for food.
+
+  <p /> 
+  Blue penguins breed underground in burrows or natural holes, although they will make use of any man-made cavity. Near human habitation it is not uncommon to find them nesting under buildings, stacks of timber or even railway tracks. Artificial nest boxes are readily adopted
+  
+  <p /> 
+Blue penguins in New Zealand have rather variable breeding seasons. The core egg-laying period for most of New Zealand is September to November, and only one clutch is laid. In good food years, blue penguins in Otago will egg-lay from May to February, with many pairs raising two clutches of chicks.
+
+Usually two eggs are laid and are incubated for 36 days, with both parents sharing the incubation and feeding duties. The chicks are guarded by one parent for the first 2-3 weeks, after which both parents must go to sea to keep up the supply of fish. Chick growth is rapid, with adult weight (1000g) being achieved in 4-5 weeks. Chicks usually fledge at 8 weeks and are independent from then on.
+
+Blue penguins usually breed for the first time at 2-3 years of age. Long term partnerships are the norm, but divorce is not uncommon. There is a high rate of juvenile mortality, but individuals can reach up to 25 years of age.
+
+Blue penguins are very faithful to their home site. Chicks will often return to within a few metres of where they were raised and once settled in an area never move away. A small number (1%) of juveniles disperse to other breeding sites.
+<p />
+Blue penguins feed on a variety of surface schooling fish, squid and crustaceans. Although dive depths of 60m have been recorded, 10-20m is more common. The average dive time is 24 seconds. Blue penguins usually feed within 25km of the coast and may make daily round-trips of up to 75km. Long winter feeding trips of up to 750 km (one way) have been recorded. Blue penguins can reach speeds of up to 6km/hr underwater.
+<p />
+Predation by introduced mustelids (ferrets, stoats, and weasels) has decimated many mainland colonies. In publicly accessible areas, dogs have been major predators - particularly of penguins returning from the sea. At Chatham and Stewart Islands, the southern brown skua also attacks blue penguins returning from the sea.
+</cell>
+  <cell width="260" /> 
+ <cell width="620">
+  Content provided courtesy of 
+ <u>
+  <color r="255" g="231" b="135">made by martin 1990 with helping hand by Roman Kocourek-Silesian Tomcat</color> 
+  </u>
+  </cell>
+  </text>
+  </zoopedia_penguinlittleblue>
+</ZT2Strings>

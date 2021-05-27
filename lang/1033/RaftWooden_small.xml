@@ -1,0 +1,36 @@
+<ZT2Strings>
+   <!--entity names-->
+   <entityname>
+      <!--scenery object names-->
+      <RaftWooden_small>Wooden Raft</RaftWooden_small>
+      <RaftWooden_small_stt>Wooden raft</RaftWooden_small_stt>
+      <RaftWooden_small_lower>the wooden raft</RaftWooden_small_lower>
+      <RaftWooden_small_ltt>
+         <color r="255" g="248" b="178">
+            <b>Wooden Raft </b>
+         </color>
+         <br/>
+        Click to place the Wooden Raft , made by martin1990. This wooden raft will be used by every non-tundra penguin in the penguin pack!
+      </RaftWooden_small_ltt>
+   </entityname>
+<zoopedia_raftwooden>
+<entry>Wooden Raft</entry>
+<text>
+         <cell pady="0" width="1000"/>
+         <p/>
+         <cell width="260"/>
+         <cell width="640" height="320" bgimg="ui/zoopedia/topCellBg.dds">
+            <cell width="600" padx="20" pady="20">
+               <color r="255" g="255" b="255">
+               <img src="entities/objects/enrichment/RaftWooden/RaftWooden_Small_icon.dds" sx="0" sy="0" sw="64" sh="64">
+                  <p/>
+               </img>
+The wooden raft consists of a small size platform made of wood. They are most commonly seen floating in water in penguin exhibits.
+               <p/>
+                   This item is most popular with penguins  who like to climb or float around on wooden raft. Penguins from non-Antarctic regions will especially love this raft as an alternative to the ice floe.
+                  </color> 
+</cell> 
+</cell> 
+ </text>          
+</zoopedia_raftwooden>
+</ZT2Strings>

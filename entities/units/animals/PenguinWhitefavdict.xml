@@ -1,0 +1,7 @@
+<BFParticleDictionary>
+     <PenguinWhiteEmote>
+      <Conditions>
+         <BFParticleDefinition xmlFile="entities\units\animals\PenguinWhite\PenguinWhiteEmote.xml" removeTime="10.0"/>
+      </Conditions>
+   </PenguinWhiteEmote>
+   </BFParticleDictionary>

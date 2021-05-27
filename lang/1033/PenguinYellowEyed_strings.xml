@@ -1,0 +1,200 @@
+<ZT2Strings>
+<entityname>
+   <!--animal names-->
+      <PenguinYellowEyed>Yellow-Eyed Penguin</PenguinYellowEyed>
+      <PenguinYellowEyed_stt>Yellow-Eyed penguin</PenguinYellowEyed_stt>
+      <PenguinYellowEyed_lower>the Yellow-Eyed penguin</PenguinYellowEyed_lower>
+      <PenguinYellowEyed_ltt>
+         <color r="255" g="248" b="178">
+            <b>Yellow-Eyed Penguin</b>
+         </color>
+         <br/>
+         Click to select and then place the  Yellow-Eyed Penguin.
+      </PenguinYellowEyed_ltt>
+<!--egg names-->
+      <PenguinYellowEyed_Egg>Yellow-Eyed Penguin egg</PenguinYellowEyed_Egg>
+      <PenguinYellowEyed_Egg_stt>Yellow-Eyed penguin egg</PenguinYellowEyed_Egg_stt>
+      <PenguinYellowEyed_Egg_lower>the Yellow-Eyed penguin egg</PenguinYellowEyed_Egg_lower>
+      <PenguinYellowEyed_Egg_ltt>
+         <color r="255" g="248" b="178">
+            <b>Yellow-Eyed Penguin Egg</b>
+         </color>
+         <br/>
+         Click this icon to select the Yellow-Eyed penguin egg. Move the cursor over the world and click to place the Yellow-Eyed penguin egg.
+       </PenguinYellowEyed_Egg_ltt>
+<!--gift names-->
+      <PenguinYellowEyed_Gift>Yellow-Eyed Penguin Toy</PenguinYellowEyed_Gift>
+      <PenguinYellowEyed_Gift_stt>Yellow-Eyed penguin toy</PenguinYellowEyed_Gift_stt>
+      <PenguinYellowEyed_Gift_lower>the Yellow-Eyed penguin Toy</PenguinYellowEyed_Gift_lower>
+      <PenguinYellowEyed_Gift_ltt>
+         <color r="255" g="248" b="178">
+            <b>Yellow-Eyed Penguin Toy</b>
+         </color>
+         <br/>Guests who enjoy watching the Yellow-Eyed penguin will buy this gift.
+      </PenguinYellowEyed_Gift_ltt>
+   </entityname>
+ <zoopedia_penguinyelloweyed>
+  <entry>Penguin, Yellow-Eyed</entry> 
+ <text>
+  <cell pady="0" width="1000" /> 
+  <p /> 
+  <cell width="260" /> 
+ <cell width="640" height="320" bgimg="ui/zoopedia/topCellBg.dds">
+ <cell width="600" padx="20" pady="20">
+<cell width="284">
+ <cell width="96" bgimg="ui/zoopedia/littleBox-128.tga">
+  <img src="entities/units/animals/PenguinYellowEyed/PenguinYellowEyed_icon.dds" sx="0" sy="0" sw="64" sh="64" height="96" width="96" /> 
+  </cell>
+ <cell width="16">
+  <img src="ui/zoopedia/icon_male.dds" sx="0" sy="0" sw="64" sh="64" width="16" height="16" /> 
+  </cell>
+ <cell width="16">
+  <img src="ui/zoopedia/icon_female.dds" sx="0" sy="0" sw="64" sh="64" width="16" height="16" /> 
+  </cell>
+  <cell width="156" /> 
+<br/>   
+                  <cell width="32" pady="0">               
+                     <img src="ui/zoopedia/endangered.dds" sx="0" sy="0" sw="64" sh="64" width="32" height="32"/>
+                  </cell>                 
+                  <cell width="224" padx="10" pady="0">
+                     <color r="255" g="255" b="255">
+                     Conservation Status:
+                     <br/>
+                        <color r="255" g="155" b="0">
+                     Endangered
+                        </color>
+                     </color>                  
+                  </cell>
+                </cell>
+ <cell width="128">
+ <color r="255" g="255" b="255">
+  Scrub 
+  <br /> 
+  </color>
+  <img src="ui/icon_biomes/icon_scrub.dds" sx="0" sy="0" sw="128" sh="128" width="96" height="96" /> 
+  </cell>
+ <cell width="128">
+ <color r="255" g="255" b="255">
+  New Zealand  
+  <br /> 
+  </color>
+  <img src="ui/icon_maplocations/Scrub_NewZealand.dds" sx="0" sy="0" sw="256" sh="256" width="96" height="96" /> 
+  </cell>
+  <br /> 
+ <cell width="284">
+ <color r="255" g="255" b="255">
+  Class: Birds 
+  <i>(Aves)</i> 
+  <br /> 
+  Order: Penguins 
+  <i>(Sphenisciformes)</i> 
+  <br /> 
+  Family: Penguins 
+  <i>(Spheniscidae)</i> 
+  <br /> 
+  Genus: 
+  <i>Megadyptes</i> 
+  <br /> 
+  Species: 
+  <i>antipodes</i> 
+   
+  </color>
+  </cell>
+ <cell width="256" pady="10">
+  <img src="UI/zoopedia/biome/scrub_zoopedia_biomebrush.dds" sx="0" sy="0" sw="256" sh="85" /> 
+  </cell>
+  </cell>
+  </cell>
+  <p /> 
+  <p /> 
+  <cell width="260" /> 
+ <cell width="300">
+ <cell width="64">
+  <img src="ui/zoopedia/fact-icon64.tga" sx="0" sy="0" sw="64" sh="64" /> 
+  </cell>
+ <cell width="176">
+ <color r="255" g="255" b="255">
+  <font name="arial" size="12" shadowx="2" shadowy="1" shadowa="50">Fun Yellow-Eyed Penguin Facts</font> 
+  </color>
+  </cell>
+  <p /> 
+ <cell width="280" bgimg="ui/zoopedia/factBG.tga" padx="10">
+  <p /> 
+ <cell width="32" pady="10">
+  <img src="ui/zoopedia/fact-bullet.tga" sx="0" sy="0" sw="32" sh="32" /> 
+  </cell>
+ <cell width="202" pady="10">
+  <color r="255" g="255" b="255">Yellow-eyed penguins are considered to be the world's rarest penguin.</color> 
+  </cell>
+  <br /> 
+ <cell width="32" pady="10">
+  <img src="ui/zoopedia/fact-bullet.tga" sx="0" sy="0" sw="32" sh="32" /> 
+  </cell>
+ <cell width="202" pady="10">
+  <color r="255" g="255" b="255">They get their name from the adult's yellow eye and the yellow stripe of feathers around their head.
+</color> 
+  </cell>
+  <br /> 
+ <cell width="32" pady="10">
+  <img src="ui/zoopedia/fact-bullet.tga" sx="0" sy="0" sw="32" sh="32" /> 
+  </cell>
+ <cell width="202" pady="10">
+  <color r="255" g="255" b="255">Yellow-eyed penguins are also called "Hoiho", their Maori name meaning "noise shouter".</color> 
+  </cell>
+  <br /> 
+ <cell width="32" pady="10">
+  <img src="ui/zoopedia/fact-bullet.tga" sx="0" sy="0" sw="32" sh="32" /> 
+  </cell>
+ <cell width="202" pady="10">
+  <color r="255" g="255" b="255">It is the only member of the genus Megadyptes which has the longest ancestry of all living penguins.</color> 
+  </cell>
+ <br /> 
+ <cell width="32" pady="10">
+  <img src="ui/zoopedia/fact-bullet.tga" sx="0" sy="0" sw="32" sh="32" /> 
+  </cell>
+ <cell width="202" pady="10">
+  <color r="255" g="255" b="255">Yellow-eyed penguins are the least social of all penguins, being solitary breeders.</color> 
+  </cell>
+<br /> 
+ <cell width="32" pady="10">
+  <img src="ui/zoopedia/fact-bullet.tga" sx="0" sy="0" sw="32" sh="32" /> 
+  </cell>
+ <cell width="202" pady="10">
+  <color r="255" g="255" b="255">Yellow-eyeds maintain the largest territory size of any penguin, sometimes up to 1 nest per hectare in forested areas.</color> 
+  </cell>
+<br /> 
+ <cell width="32" pady="10">
+  <img src="ui/zoopedia/fact-bullet.tga" sx="0" sy="0" sw="32" sh="32" /> 
+  </cell>
+ <cell width="202" pady="10">
+  <color r="255" g="255" b="255">Yellow-eyed penguins can live for up to 20 years.</color> 
+  </cell>
+  </cell>
+  </cell>
+ <cell width="340">
+  <color r="255" g="248" b="178">To unlock the Yellow-Eyed penguin in challenge or campaign games, you must earn a 3-star zoo fame rating for your zoo.</color> 
+  <p /> 
+  Rarest of all the penguins, the Yellow-eyed penguin inhabits coastal forests of New Zealand and neighboring southern islands. Unique in appearance and behavior, these solitary birds have experienced population declines in the last 50 years due to habitat loss and predation by introduced species. 
+
+
+Yellow-eyed penguins have distinctive golden feathers which form a crown on their heads. This along with a bright yellow stripe running to the eye and around the back of the head are the distinguishing features of these elusive birds. They have slate grey-blue blacks with a white breast and belly, flesh colored feet, and thick reddish-purple bills. Immature birds have grey eyes and lack the yellow eye band and yellow head plumage. Chicks are covered with thick dark brown down feathers. Both sexes are alike, although the male does have slightly larger head and feet.
+  <p /> 
+ Yellow-eyeds spend most of their day at sea, feeding in the warm New Zealand waters. Amazing underwater swimmers, they can dive to depths of 400 feet and are adapted to holding their breath for up to four minutes.They may travel up to 20 miles from shore to feeding grounds at the edge of the Continental Shelf. There they scan the depths for opal fish, silverside, sprat, aruhu, red cod, and arrow squid. 
+
+Yellow-eyed penguins are forest nesting birds, preferring to nest in a secluded site backed up to a bank, tree or log. Coastal deforestation, however, has forced these penguins to seek refuge among tall shore grasses where adults, eggs and chicks frequently become prey to introduced dogs, cats, stoats, ferrets, and rats. Although they nest in loose 'colonies', mated Yellow-eyed penguins seek solitude, often nesting out of sight of each other.
+ 
+  <p /> 
+During their lengthy breeding season, which runs from mid-August to mid-March, the penguins come ashore in the evening and waddle clumsily up the beach to their inland nest sites. In September to mid-October, Females lay two eggs in nests of sticks and coarse grass which provide shelter from the hot sun and protection from storms. The incubation period is about 45 days and both parents keep watch over the eggs. The average hatching date on mainland New Zealand is the beginning of November. Both eggs usually hatch. At this point, one parent remains with the chicks while the other parent goes to sea to hunt for food. Unusual among penguins, the chicks stay with the parents and do not form 'creches' (nursery groups). Chicks fledge from mid-February to mid-March and are then able to head out to sea on their own.
+<p />
+Despite being swift swimmers, Yellow-eyed penguins can fall prey to seals and sharks at sea, though by far the biggest threats to their survival are on land. Significant protection measures have been introduced lately to curb population losses, including legislation aimed at reducing the numbers of non-native mammalian predators and slowing habitat loss.
+</cell>
+  <cell width="260" /> 
+ <cell width="620">
+   
+ <u>
+  <color r="255" g="231" b="135">Recoloured and coded animal by Roman Kocourek-Silesian Tomcat</color> 
+  </u>
+  </cell>
+  </text>
+  </zoopedia_penguinyelloweyed>
+</ZT2Strings>

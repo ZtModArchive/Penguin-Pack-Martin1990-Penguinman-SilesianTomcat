@@ -1,0 +1,32 @@
+<BFTypedBinder binderType="PenguinMagella_Adult_M">
+   <types>
+      <entity>
+         <actor>
+            <animal>
+               <Aves>
+                  <Sphenisciformes>
+                     <Spheniscidae>
+                        <PenguinMagella>
+                           <PenguinMagella_Adult>
+                              <PenguinMagella_Adult_M/>
+                           </PenguinMagella_Adult>
+                        </PenguinMagella>
+                     </Spheniscidae>
+                  </Sphenisciformes>
+               </Aves>
+            </animal>
+         </actor>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity/>
+   </instance>
+   <shared>
+      <UIToggleButton template="adopt">
+         <on>
+            <event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="PenguinMagella_Adult_M"/>
+         </on>
+      </UIToggleButton>
+      <BFAIEntityDataShared b_Male="1" f_adoptCount="rand(1,2)"/>
+   </shared>
+</BFTypedBinder>

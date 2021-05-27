@@ -1,0 +1,30 @@
+<BFTypedBinder binderType="PenguinYellowEyed_Gift">
+   <types>
+      <entity>
+         <item>
+            <PenguinYellowEyed_Gift/>
+         </item>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity entityVersion="1"/>
+   </instance>
+   <shared>
+      <UIToggleButton template="adopt">
+         <UIAspect>
+            <default image="UI/infopan/icon_PenguinYellowEyed_Gift.dds"/>
+         </UIAspect>
+         <UIHelpInfo name="" short="" long="" help="" ids="entityname:PenguinYellowEyed_Gift"/>
+      </UIToggleButton>
+      <BFAIEntityDataShared b_CommonGift="true"/>
+   </shared>
+   <binder>
+      <BFNamedBinder binderName="mainObj">
+         <instance>
+            <BFPhysObj>
+               <BFSimpleLODComponent modelfile="entities/objects/Items/Gifts/PenguinYellowEyed_Gift.nif" scale="1.5" switch="0 36"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+   </binder>
+</BFTypedBinder>

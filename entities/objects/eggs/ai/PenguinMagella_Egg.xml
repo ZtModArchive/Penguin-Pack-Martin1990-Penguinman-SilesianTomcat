@@ -1,0 +1,54 @@
+<BFTypedBinder binderType="PenguinMagella_Egg">
+   <types>
+      <entity>
+          <egg>
+              <PenguinMagella_Egg/>
+          </egg>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity/>
+   </instance>
+   <shared>
+      <UIToggleButton template="adopt">
+         <UIAspect>
+            <default image="entities/objects/eggs/FlamingoGreater_Egg/PenguinMagella_Egg.dds"/>
+         </UIAspect>
+         <UIHelpInfo name="" short="" long="" help="" ids="entityname:PenguinMagella_Egg"/>
+         <on>
+            <event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="PenguinMagella_Egg"/>
+         </on>
+      </UIToggleButton>
+      <BFGDetachInfo>
+         <detachActionTable>
+            <dropitem destination="drop"/>
+            <killitem destination="kill"/>
+         </detachActionTable>
+      </BFGDetachInfo>
+      <BFAIEntityDataShared s_Species="PenguinMagella" s_Zoopedia="zoopedia:zoopedia_1990:entry"/>
+      <BFGBiomeData location="Scrub_1990" locationSensitivity="10">
+		<alpine sensitivity="2"/>
+		<borealforest sensitivity="0"/>
+		<desert sensitivity="-10"/>
+		<grassland sensitivity="0"/>
+		<temperateforest sensitivity="0"/>
+		<tropicalrainforest sensitivity="-5"/>
+		<tundra sensitivity="-5"/>
+		<savannah sensitivity="0"/>
+		<scrub sensitivity="10" primary="true"/>
+		<wetlands sensitivity="-5"/>
+      </BFGBiomeData>
+   </shared>
+   <binder>
+      <BFNamedBinder binderName="mainObj">
+         <instance>
+            <BFPhysObj>
+               <BFCollisionComponent grid="Bip01"/>
+				<BFActorComponent actorfile="entities/objects/eggs/PenguinMagella_Egg/PenguinMagella_Egg.bfm scale="0.5"" activeSequenceName="Stand_Idle" activeSequenceAccumulate="false" scale="1.0"/>
+               <BFGroundFitComponent heightOffset="0.0"/>
+               <BFGridCollisionComponent/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+   </binder>
+</BFTypedBinder>

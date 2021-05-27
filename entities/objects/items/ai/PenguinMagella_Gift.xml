@@ -1,0 +1,30 @@
+<BFTypedBinder binderType="PenguinMagella_Gift">
+   <types>
+      <entity>
+         <item>
+            <PenguinMagella_Gift/>
+         </item>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity entityVersion="1"/>
+   </instance>
+   <shared>
+      <UIToggleButton template="adopt">
+         <UIAspect>
+            <default image="UI/infopan/icon_PenguinMagella_Gift.dds"/>
+         </UIAspect>
+         <UIHelpInfo name="" short="" long="" help="" ids="entityname:PenguinMagella_Gift"/>
+      </UIToggleButton>
+      <BFAIEntityDataShared b_CommonGift="true"/>
+   </shared>
+   <binder>
+      <BFNamedBinder binderName="mainObj">
+         <instance>
+            <BFPhysObj>
+               <BFSimpleLODComponent modelfile="entities/objects/Items/Gifts/PenguinMagella_Gift.nif" scale="1.0" switch="0 36"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+   </binder>
+</BFTypedBinder>

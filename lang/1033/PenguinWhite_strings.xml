@@ -1,0 +1,142 @@
+<ZT2Strings>
+<entityname>
+   <!--animal names-->
+      <PenguinWhite>White-Flippered Penguin</PenguinWhite>
+      <PenguinWhite_stt>White-Flippered Penguin</PenguinWhite_stt>
+      <PenguinWhite_lower>the White-Flippered Penguin</PenguinWhite_lower>
+      <PenguinWhite_ltt>
+         <color r="255" g="248" b="178">
+            <b>White-Flippered Penguin</b>
+         </color>
+         <br/>
+         Click to select and then place the White-Flippered Penguin, a small blue penguin.
+      </PenguinWhite_ltt>
+<!--egg names-->
+      <PenguinWhite_Egg>White-Flippered Penguin egg</PenguinWhite_Egg>
+      <PenguinWhite_Egg_stt>White-Flippered Penguin egg</PenguinWhite_Egg_stt>
+      <PenguinWhite_Egg_lower>the White-Flippered Penguin egg</PenguinWhite_Egg_lower>
+      <PenguinWhite_Egg_ltt>
+         <color r="255" g="248" b="178">
+            <b>White-Flippered Penguin Egg</b>
+         </color>
+         <br/>
+         Click this icon to select the White-Flippered Penguin egg. Move the cursor over the world and click to place the little White-Flippered Penguin egg.
+       </PenguinWhite_Egg_ltt>
+      <!--gift names-->
+      <PenguinWhite_Gift>White-Flippered Penguin Toy</PenguinWhite_Gift>
+      <PenguinWhite_Gift_stt>White-Flippered Penguin toy</PenguinWhite_Gift_stt>
+      <PenguinWhite_Gift_lower>the White-Flippered Penguin toy</PenguinWhite_Gift_lower>
+      <PenguinWhite_Gift_ltt>
+         <color r="255" g="248" b="178">
+            <b>White-Flippered Penguin toy</b>
+         </color>
+         <br/>Guests who enjoy watching the White-Flippered Penguin will buy this gift.
+      </PenguinWhite_Gift_ltt>
+</entityname>
+<zoopedia_penguinwhite>
+ <entry>White-Flippered Penguin</entry>
+ <text>
+  <cell pady="0" width="1000"/>
+  <p/>
+  <cell width="260"/>
+  <cell width="640" height="320" bgimg="ui/zoopedia/topCellBg.dds">
+   <cell width="600" padx="20" pady="20">
+   
+               <cell width="284">
+						 <cell width="96" bgimg="ui/zoopedia/littleBox-128.tga">
+						  <img src="entities/units/animals/PenguinWhite/PenguinWhite_icon.dds" sx="0" sy="0" sw="64" sh="64" height="96" width="96"/>
+						 </cell>
+						 <cell width="16">
+						  <img src="ui/zoopedia/icon_male.dds" sx="0" sy="0" sw="64" sh="64" width="16" height="16"/>
+						 </cell>
+						 <cell width="16">
+						  <img src="ui/zoopedia/icon_female.dds" sx="0" sy="0" sw="64" sh="64" width="16" height="16"/>
+						 </cell>
+						 <cell width="156"/>
+                  <br/>   
+                  <cell width="32" pady="0">               
+                     <img src="ui/zoopedia/vulnerable.dds" sx="0" sy="0" sw="64" sh="64" width="32" height="32"/>
+                  </cell>                 
+                  <cell width="224" padx="10" pady="0">
+                     <color r="255" g="255" b="255">
+                     Conservation Status:
+                     <br/>
+                        <color r="255" g="255" b="0">
+                      Vulnerable
+                        </color>
+                     </color>                  
+                  </cell>
+               </cell>   
+   
+    <cell width="128">
+     <color r="255" g="255" b="255">Scrub<br/></color>
+     <img src="ui/icon_biomes/icon_scrub.dds" sx="0" sy="0" sw="128" sh="128" width="96" height="96"/>
+    </cell>
+    <cell width="128">
+     <color r="255" g="255" b="255">New Zealand<br/></color> 
+     <img src="ui/icon_maplocations/Scrub_NewZealand.dds" sx="0" sy="0" sw="256" sh="256" width="96" height="96"/>
+    </cell>
+    <br/>
+    <cell width="284" pady="10">
+     <color r="255" g="255" b="255">Class: Birds <i>(Aves)</i><br/>Order: Penguins <i>(Sphenisciformes)</i><br/>Family: Penguins <i>(Spheniscidae)</i><br/>Genus: <i>Eudyptula</i><br/>Species: <i>minor</i><br/>Sub-Species: <i>albosignata</i>
+     </color>
+    </cell>
+    <cell width="256" pady="10">
+     <img src="UI/zoopedia/biome/scrub_zoopedia_biomebrush.dds" sx="0" sy="0" sw="256" sh="85"/>
+    </cell>
+   </cell>
+  </cell>
+  <p/>
+  <p/>
+  <cell width="260"/>
+  <cell width="300">
+   <cell width="64">
+    <img src="ui/zoopedia/fact-icon64.tga" sx="0" sy="0" sw="64" sh="64"/>
+   </cell>
+   <cell width="176">
+    <color r="255" g="255" b="255">
+     <font name="arial" size="12" shadowx="2" shadowy="1" shadowa="50">Fun White-Flippered Penguin Facts</font>
+    </color>
+   </cell>
+   <p/>
+   <cell width="280" bgimg="ui/zoopedia/factBG.tga" padx="10">
+    <p/>
+    <cell width="32" pady="10">
+     <img src="ui/zoopedia/fact-bullet.tga" sx="0" sy="0" sw="32" sh="32"/>
+    </cell>
+    <cell width="202" pady="10">
+     <color r="255" g="255" b="255">The White-Flippered penguin is believed to be a sub-species of the little blue penguin, although some scientists think its a new species.</color>
+    </cell>
+	<cell width="32" pady="10">
+		<img src="ui/zoopedia/fact-bullet.tga" sx="0" sy="0" sw="32" sh="32"/>
+	</cell>    
+    <cell width="202" pady="10">
+     <color r="255" g="255" b="255">The best viewing of white flippered penguins is by boat in the Akaroa harbour during daylight hours.</color>
+    </cell>
+	<cell width="32" pady="10">
+		<img src="ui/zoopedia/fact-bullet.tga" sx="0" sy="0" sw="32" sh="32"/>
+	</cell>            
+    <cell width="202" pady="10">
+     <color r="255" g="255" b="255">The main difference between the little blue and the white-flippered is a white band that runs along the white-flippered's wing.</color>     
+    </cell>
+  </cell>
+  </cell>
+  <cell width="340">
+   <color r="255" g="248" b="178">
+    To unlock the White-Flippered Penguin in challenge or campaign games, you must earn a 2-star zoo fame rating for your zoo.
+   </color>
+   <p/>Physical Characteristics
+Very similar to the blue penguin, differing only in slightly larger size, lighter plumage and having large areas of white plumage on the dorsal surface of the wings.<p/>Habitat
+Like the blue penguin, the white-flippered penguin is a burrow breeder.<p/>Breeding
+As for blue penguins, except that the breeding season is shorter and double-clutching is rare.<p/>Diet and feeding
+Not well known, probably as for blue penguin.<p/>Threats
+The white-flippered penguin population on the mainland is in decline and is severely effected by mustelid predation.
+  </cell>
+  <p/>
+  <cell width="260"/>
+  <cell width="620">
+   Content provided courtesy of<color r="255" g="231" b="135">http://www.penguin.net.nz/wf/wf.html</color>Made by Penguinman.
+  </cell>
+ </text>
+</zoopedia_penguinwhite>
+</ZT2Strings>

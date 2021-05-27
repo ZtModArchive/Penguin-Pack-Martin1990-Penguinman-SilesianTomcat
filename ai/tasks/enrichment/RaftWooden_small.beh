@@ -1,0 +1,241 @@
+<BehaviorSets>
+   <EnterRaftWooden_small1>
+      <subjects>
+         <PenguinWhite/>
+         <PenguinMagella/>
+         <PenguinBlackfo/>
+         <PenguinHumboldt/>
+         <PenguinGalapagos/>
+         <PenguinRoyal/>
+         <PenguinYellowEyed/>
+         <PenguinFiordland/>
+         <PenguinSCrsted/>
+         <PenguinLittleBlue/>
+         <PenguinECrsted/>
+      </subjects>
+      <behaviors>
+         <BFBehHeadLook/>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:GoingToClimb" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehDockTAP targetAnim="TreadWater_Idle" subjectNode="Floor" targetTAP="EnterA"/>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:Climbing" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimateTAP subjectNode="Floor" targetTAP="EnterA" exitTAP="false"/>
+         <BFBehHeadLook disengage="true"/>
+      </behaviors>
+   </EnterRaftWooden_small1>
+   <EnterRaftWooden_small2>
+      <subjects>
+         <PenguinWhite/>
+         <PenguinMagella/>
+         <PenguinBlackfo/>
+         <PenguinHumboldt/>
+         <PenguinGalapagos/>
+         <PenguinRoyal/>
+         <PenguinYellowEyed/>
+         <PenguinFiordland/>
+         <PenguinSCrsted/>
+         <PenguinLittleBlue/>
+         <PenguinECrsted/>
+      </subjects>
+      <behaviors>
+         <BFBehHeadLook/>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:GoingToClimb" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehDockTAP targetAnim="TreadWater_Idle" subjectNode="Floor" targetTAP="EnterB"/>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:Climbing" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimateTAP subjectNode="Floor" targetTAP="EnterB" exitTAP="false"/>
+         <BFBehHeadLook disengage="true"/>
+      </behaviors>
+   </EnterRaftWooden_small2>
+   <EnterRaftWooden_small3>
+      <subjects>
+         <PenguinWhite/>
+         <PenguinMagella/>
+         <PenguinBlackfo/>
+         <PenguinHumboldt/>
+         <PenguinGalapagos/>
+         <PenguinRoyal/>
+         <PenguinYellowEyed/>
+         <PenguinFiordland/>
+         <PenguinSCrsted/>
+         <PenguinLittleBlue/>
+         <PenguinECrsted/>
+      </subjects>
+      <behaviors>
+         <BFBehHeadLook/>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:GoingToClimb" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehDockTAP targetAnim="TreadWater_Idle" subjectNode="Floor" targetTAP="EnterC"/>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:Climbing" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimateTAP subjectNode="Floor" targetTAP="EnterC" exitTAP="false"/>
+         <BFBehHeadLook disengage="true"/>
+      </behaviors>
+   </EnterRaftWooden_small3>
+   <EnterRaftWooden_small4>
+      <subjects>
+         <PenguinWhite/>
+         <PenguinMagella/>
+         <PenguinBlackfo/>
+         <PenguinHumboldt/>
+         <PenguinGalapagos/>
+         <PenguinRoyal/>
+         <PenguinYellowEyed/>
+         <PenguinFiordland/>
+         <PenguinSCrsted/>
+         <PenguinLittleBlue/>
+         <PenguinECrsted/>
+      </subjects>
+      <behaviors>
+         <BFBehHeadLook/>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:GoingToClimb" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehDockTAP targetAnim="TreadWater_Idle" subjectNode="Floor" targetTAP="EnterD"/>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:Climbing" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimateTAP subjectNode="Floor" targetTAP="EnterD" exitTAP="false"/>
+         <BFBehHeadLook disengage="true"/>
+      </behaviors>
+   </EnterRaftWooden_small4>
+   <UseRaftWooden_small>
+      <subjects>
+         <PenguinWhite/>
+         <PenguinMagella/>
+         <PenguinBlackfo/>
+         <PenguinHumboldt/>
+         <PenguinGalapagos/>
+         <PenguinRoyal/>
+         <PenguinYellowEyed/>
+         <PenguinFiordland/>
+         <PenguinSCrsted/>
+         <PenguinLittleBlue/>
+         <PenguinECrsted/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:RestingOn" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimate targetAnim="Rest_Idle" playTime="20"/>
+      </behaviors>
+   </UseRaftWooden_small>
+   <ExitRaftWooden_small1>
+      <subjects>
+         <PenguinWhite/>
+         <PenguinMagella/>
+         <PenguinBlackfo/>
+         <PenguinHumboldt/>
+         <PenguinGalapagos/>
+         <PenguinRoyal/>
+         <PenguinYellowEyed/>
+         <PenguinFiordland/>
+         <PenguinSCrsted/>
+         <PenguinLittleBlue/>
+         <PenguinECrsted/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:ClimbingDown" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimateTAP subjectNode="Floor" targetTAP="ExitA" exitTAP="true"/>
+      </behaviors>
+   </ExitRaftWooden_small1>
+   <ExitRaftWooden_small2>
+      <subjects>
+         <PenguinWhite/>
+         <PenguinMagella/>
+         <PenguinBlackfo/>
+         <PenguinHumboldt/>
+         <PenguinGalapagos/>
+         <PenguinRoyal/>
+         <PenguinYellowEyed/>
+         <PenguinFiordland/>
+         <PenguinSCrsted/>
+         <PenguinLittleBlue/>
+         <PenguinECrsted/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:ClimbingDown" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimateTAP subjectNode="Floor" targetTAP="ExitB" exitTAP="true"/>
+      </behaviors>
+   </ExitRaftWooden_small2>
+   <ExitRaftWooden_small3>
+      <subjects>
+         <PenguinWhite/>
+         <PenguinMagella/>
+         <PenguinBlackfo/>
+         <PenguinHumboldt/>
+         <PenguinGalapagos/>
+         <PenguinRoyal/>
+         <PenguinYellowEyed/>
+         <PenguinFiordland/>
+         <PenguinSCrsted/>
+         <PenguinLittleBlue/>
+         <PenguinECrsted/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:ClimbingDown" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimateTAP subjectNode="Floor" targetTAP="ExitC" exitTAP="true"/>
+      </behaviors>
+   </ExitRaftWooden_small3>
+   <ExitRaftWooden_small4>
+      <subjects>
+         <PenguinWhite/>
+         <PenguinMagella/>
+         <PenguinBlackfo/>
+         <PenguinHumboldt/>
+         <PenguinGalapagos/>
+         <PenguinRoyal/>
+         <PenguinYellowEyed/>
+         <PenguinFiordland/>
+         <PenguinSCrsted/>
+         <PenguinLittleBlue/>
+         <PenguinECrsted/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:ClimbingDown" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimateTAP subjectNode="Floor" targetTAP="ExitD" exitTAP="true"/>
+      </behaviors>
+   </ExitRaftWooden_small4>  
+</BehaviorSets>

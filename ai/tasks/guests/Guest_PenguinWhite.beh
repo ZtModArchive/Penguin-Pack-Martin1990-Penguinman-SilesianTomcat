@@ -1,0 +1,12 @@
+<BehaviorSets>
+   <BuyPenguinWhiteGift>
+      <subjects>
+         <Guest/>
+      </subjects>
+      <behaviors>
+         <BFBehPlaySet behSet="DockGiftCart"/>
+         <BFBehAttachObject attachEntity="PenguinWhite_Gift" subjectNode="Bip01 R Finger0" detachAction="inventory" locoMod="carry"/>
+         <BFBehAnimate targetAnim="Stand_Turn180"/>
+      </behaviors>
+   </BuyPenguinWhiteGift>
+</BehaviorSets>

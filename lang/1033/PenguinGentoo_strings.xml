@@ -1,0 +1,137 @@
+<ZT2Strings>
+<entityname>
+   <!--animal names-->
+      <PenguinGentoo>Gentoo Penguin</PenguinGentoo>
+      <PenguinGentoo_stt>Gentoo Penguin</PenguinGentoo_stt>
+      <PenguinGentoo_lower>the Gentoo Penguin</PenguinGentoo_lower>
+      <PenguinGentoo_ltt>
+         <color r="255" g="248" b="178">
+            <b>Gentoo Penguin</b>
+         </color>
+         <br/>
+         Click to select and then place the Gentoo Penguin, penguin who likes grassland to breed on.
+      </PenguinGentoo_ltt>
+<!--egg names-->
+      <PenguinGentoo_Egg>Gentoo Penguin egg</PenguinGentoo_Egg>
+      <PenguinGentoo_Egg_stt>Gentoo Penguin egg</PenguinGentoo_Egg_stt>
+      <PenguinGentoo_Egg_lower>the Gentoo Penguin egg</PenguinGentoo_Egg_lower>
+      <PenguinGentoo_Egg_ltt>
+         <color r="255" g="248" b="178">
+            <b>Gentoo Penguin Egg</b>
+         </color>
+         <br/>
+         Click this icon to select the Gentoo Penguin egg. Move the cursor over the world and click to place the little Gentoo Penguin egg.
+       </PenguinGentoo_Egg_ltt>
+      <!--gift names-->
+      <PenguinGentoo_Gift>Gentoo Penguin Toy</PenguinGentoo_Gift>
+      <PenguinGentoo_Gift_stt>Gentoo Penguin toy</PenguinGentoo_Gift_stt>
+      <PenguinGentoo_Gift_lower>the Gentoo Penguin toy</PenguinGentoo_Gift_lower>
+      <PenguinGentoo_Gift_ltt>
+         <color r="255" g="248" b="178">
+            <b>Gentoo Penguin toy</b>
+         </color>
+         <br/>Guests who enjoy watching the Gentoo Penguin will buy this gift.
+      </PenguinGentoo_Gift_ltt>
+</entityname>
+<zoopedia_penguingentoo>
+ <entry>Penguin, Gentoo</entry>
+ <text>
+  <cell pady="0" width="1000"/>
+  <p/>
+  <cell width="260"/>
+  <cell width="640" height="320" bgimg="ui/zoopedia/topCellBg.dds">
+   <cell width="600" padx="20" pady="20">
+   
+               <cell width="284">
+						 <cell width="96" bgimg="ui/zoopedia/littleBox-128.tga">
+						  <img src="entities/units/animals/PenguinGentoo/PenguinGentoo_icon.dds" sx="0" sy="0" sw="64" sh="64" height="96" width="96"/>
+						 </cell>
+						 <cell width="16">
+						  <img src="ui/zoopedia/icon_male.dds" sx="0" sy="0" sw="64" sh="64" width="16" height="16"/>
+						 </cell>
+						 <cell width="16">
+						  <img src="ui/zoopedia/icon_female.dds" sx="0" sy="0" sw="64" sh="64" width="16" height="16"/>
+						 </cell>
+						 <cell width="156"/>
+                  <br/>   
+                  <cell width="32" pady="0">               
+                     <img src="ui/zoopedia/lowrisk.dds" sx="0" sy="0" sw="64" sh="64" width="32" height="32"/>
+                  </cell>                 
+                  <cell width="224" padx="10" pady="0">
+                     <color r="255" g="255" b="255">
+                     Conservation Status:
+                     <br/>
+                        <color r="0" g="255" b="0">
+                      Low Risk
+                        </color>
+                     </color>                  
+                  </cell>
+               </cell>   
+   
+    <cell width="128">
+     <color r="255" g="255" b="255">Tundra<br/></color>
+     <img src="ui/icon_biomes/icon_tundra.dds" sx="0" sy="0" sw="128" sh="128" width="96" height="96"/>
+    </cell>
+    <cell width="128">
+     <color r="255" g="255" b="255">Sub-Antarctic Islands<br/></color> 
+     <img src="ui/icon_maplocations/Tundra_Subantarctica.dds" sx="0" sy="0" sw="256" sh="256" width="96" height="96"/>
+    </cell>
+    <br/>
+    <cell width="284" pady="10">
+     <color r="255" g="255" b="255">Class: Birds <i>(Aves)</i><br/>Order: Penguins <i>(Sphenisciformes)</i><br/>Family: Penguins <i>(Spheniscidae)</i><br/>Genus: <i>Pygoscelis</i><br/>Species: <i>papua</i>
+     </color>
+    </cell>
+    <cell width="256" pady="10">
+     <img src="UI/zoopedia/biome/tundra_zoopedia_biomebrush.dds" sx="0" sy="0" sw="256" sh="85"/>
+    </cell>
+   </cell>
+  </cell>
+  <p/>
+  <p/>
+  <cell width="260"/>
+  <cell width="300">
+   <cell width="64">
+    <img src="ui/zoopedia/fact-icon64.tga" sx="0" sy="0" sw="64" sh="64"/>
+   </cell>
+   <cell width="176">
+    <color r="255" g="255" b="255">
+     <font name="arial" size="12" shadowx="2" shadowy="1" shadowa="50">Fun Gentoo Penguin Facts</font>
+    </color>
+   </cell>
+   <p/>
+   <cell width="280" bgimg="ui/zoopedia/factBG.tga" padx="10">
+    <p/>
+    <cell width="32" pady="10">
+     <img src="ui/zoopedia/fact-bullet.tga" sx="0" sy="0" sw="32" sh="32"/>
+    </cell>
+    <cell width="202" pady="10">
+     <color r="255" g="255" b="255">Gentoo penguins rear two chicks each year more often than other penguin species.</color>
+    </cell>
+	<cell width="32" pady="10">
+		<img src="ui/zoopedia/fact-bullet.tga" sx="0" sy="0" sw="32" sh="32"/>
+	</cell>    
+    <cell width="202" pady="10">
+     <color r="255" g="255" b="255">Gentoo penguins are the least abundant species of penguin found on the subantarctic islands.</color>
+    </cell>
+	<cell width="32" pady="10">
+		<img src="ui/zoopedia/fact-bullet.tga" sx="0" sy="0" sw="32" sh="32"/>
+	</cell>            
+    <cell width="202" pady="10">
+     <color r="255" g="255" b="255">Unlike other penguin species, Gentoo penguins may breed as early as two years of age.</color>     
+    </cell>
+  </cell>
+  </cell>
+  <cell width="340">
+   <color r="255" g="248" b="178">
+    To unlock the Gentoo Penguin in challenge or campaign games, you must earn a 2-star zoo fame rating for your zoo.
+   </color>
+   <p/>Gentoo penguins have a wide white stripe that goes across the tops of their heads from one eye to the other. They have a very bright orange beak. They are the largest members of the stiff-tailed family. They live on many of the islands of the Antarctic region but the main colony is on the Falklands. There are about 300,000 breeding pairs on the islands. They live in large and noisy breeding colonies<p/>Their nests are made on the rocky shores. They prefer the inland grasslands for nest building. They carry and pile stones, pebbles, grass, sticks, and anything they can find to make a circle. Gentoos can be very aggressive and will fight over stones or take stones and nest building material away from other birds' nests.<p/>Two eggs are laid inside this circle. Both parents tend to the eggs. The eggs hatch after 34 to 36 days. If there is lots of food, both chicks will survive. The chicks stay in the rock nest for 30 days. Then it forms groups with other chicks called "crèches". They stay here while the parents hunt for food. After about 80 to 100 days the chicks grow their adult feathers and they go on their own.
+  </cell>
+  <p/>
+  <cell width="260"/>
+  <cell width="620">
+   Content provided courtesy of<color r="255" g="231" b="135">http://www.siec.k12.in.us/~west/proj/penguins/gentoo.html</color>Made by Penguinman and recolored by Dwarf!
+  </cell>
+ </text>
+</zoopedia_penguingentoo>
+</ZT2Strings>

@@ -1,0 +1,138 @@
+<ZT2Strings>
+<entityname>
+   <!--animal names-->
+      <PenguinFiordland>Fiordland Crested Penguin</PenguinFiordland>
+      <PenguinFiordland_stt>Fiordland Crested Penguin</PenguinFiordland_stt>
+      <PenguinFiordland_lower>the Fiordland Crested Penguin</PenguinFiordland_lower>
+      <PenguinFiordland_ltt>
+         <color r="255" g="248" b="178">
+            <b>Fiordland Crested Penguin</b>
+         </color>
+         <br/>
+         Click to select and then place the Fiordland Crested Penguin, a rainforest dwelling penguin from New Zealand.
+      </PenguinFiordland_ltt>
+<!--egg names-->
+      <PenguinFiordland_Egg>Fiordland Crested Penguin egg</PenguinFiordland_Egg>
+      <PenguinFiordland_Egg_stt>Fiordland Crested Penguin egg</PenguinFiordland_Egg_stt>
+      <PenguinFiordland_Egg_lower>the Fiordland Crested Penguin egg</PenguinFiordland_Egg_lower>
+      <PenguinFiordland_Egg_ltt>
+         <color r="255" g="248" b="178">
+            <b>Fiordland Crested Penguin Egg</b>
+         </color>
+         <br/>
+         Click this icon to select the Fiordland Crested Penguin egg. Move the cursor over the world and click to place the little Fiordland Crested Penguin egg.
+       </PenguinFiordland_Egg_ltt>
+      <!--gift names-->
+      <PenguinFiordland_Gift>Fiordland Crested Penguin Toy</PenguinFiordland_Gift>
+      <PenguinFiordland_Gift_stt>Fiordland Crested Penguin toy</PenguinFiordland_Gift_stt>
+      <PenguinFiordland_Gift_lower>the Fiordland Crested Penguin toy</PenguinFiordland_Gift_lower>
+      <PenguinFiordland_Gift_ltt>
+         <color r="255" g="248" b="178">
+            <b>Fiordland Crested Penguin toy</b>
+         </color>
+         <br/>Guests who enjoy watching the Fiordland Crested Penguin will buy this gift.
+      </PenguinFiordland_Gift_ltt>
+</entityname>
+<zoopedia_penguinfiordland>
+ <entry>Penguin, Fiordland Crested</entry>
+ <text>
+  <cell pady="0" width="1000"/>
+  <p/>
+  <cell width="260"/>
+  <cell width="640" height="320" bgimg="ui/zoopedia/topCellBg.dds">
+   <cell width="600" padx="20" pady="20">
+   
+               <cell width="284">
+						 <cell width="96" bgimg="ui/zoopedia/littleBox-128.tga">
+						  <img src="entities/units/animals/PenguinFiordland/PenguinFiordland_icon.dds" sx="0" sy="0" sw="64" sh="64" height="96" width="96"/>
+						 </cell>
+						 <cell width="16">
+						  <img src="ui/zoopedia/icon_male.dds" sx="0" sy="0" sw="64" sh="64" width="16" height="16"/>
+						 </cell>
+						 <cell width="16">
+						  <img src="ui/zoopedia/icon_female.dds" sx="0" sy="0" sw="64" sh="64" width="16" height="16"/>
+						 </cell>
+						 <cell width="156"/>
+                  <br/>   
+                  <cell width="32" pady="0">               
+                     <img src="ui/zoopedia/vulnerable.dds" sx="0" sy="0" sw="64" sh="64" width="32" height="32"/>
+                  </cell>                 
+                  <cell width="224" padx="10" pady="0">
+                     <color r="255" g="255" b="255">
+                     Conservation Status:
+                     <br/>
+                        <color r="255" g="255" b="0">
+                      Vulnerable
+                        </color>
+                     </color>                  
+                  </cell>
+               </cell>   
+   
+    <cell width="128">
+     <color r="255" g="255" b="255">Tropical Rainforest<br/></color>
+     <img src="ui/icon_biomes/icon_tropicalrainforest.dds" sx="0" sy="0" sw="128" sh="128" width="96" height="96"/>
+    </cell>
+    <cell width="128">
+     <color r="255" g="255" b="255">New Zealand<br/></color> 
+     <img src="ui/icon_maplocations/Tropicalrainforest_New_Zealand.dds" sx="0" sy="0" sw="256" sh="256" width="96" height="96"/>
+    </cell>
+    <br/>
+    <cell width="284" pady="10">
+     <color r="255" g="255" b="255">Class: Birds <i>(Aves)</i><br/>Order: Penguins <i>(Sphenisciformes)</i><br/>Family: Penguins <i>(Spheniscidae)</i><br/>Genus: <i>Eudyptes</i><br/>Species: <i>pachyrhynchus</i>
+     </color>
+    </cell>
+    <cell width="256" pady="10">
+     <img src="UI/zoopedia/biome/tropicalrainforest_zoopedia_biomebrush.dds" sx="0" sy="0" sw="256" sh="85"/>
+    </cell>
+   </cell>
+  </cell>
+  <p/>
+  <p/>
+  <cell width="260"/>
+  <cell width="300">
+   <cell width="64">
+    <img src="ui/zoopedia/fact-icon64.tga" sx="0" sy="0" sw="64" sh="64"/>
+   </cell>
+   <cell width="176">
+    <color r="255" g="255" b="255">
+     <font name="arial" size="12" shadowx="2" shadowy="1" shadowa="50">Fun Fiordland Crested Penguin Facts</font>
+    </color>
+   </cell>
+   <p/>
+   <cell width="280" bgimg="ui/zoopedia/factBG.tga" padx="10">
+    <p/>
+    <cell width="32" pady="10">
+     <img src="ui/zoopedia/fact-bullet.tga" sx="0" sy="0" sw="32" sh="32"/>
+    </cell>
+    <cell width="202" pady="10">
+     <color r="255" g="255" b="255">The name penguin probably derived from the Latin word 'pinguis' or the Spanish 'pinguigo', which refers to the large quantity of fat on the birds.</color>
+    </cell>
+	<cell width="32" pady="10">
+		<img src="ui/zoopedia/fact-bullet.tga" sx="0" sy="0" sw="32" sh="32"/>
+	</cell>    
+    <cell width="202" pady="10">
+     <color r="255" g="255" b="255">Height: 60cm (23.5in), Weight: 3.5-4kg (7.7-8.8lb).</color>
+    </cell>
+	<cell width="32" pady="10">
+		<img src="ui/zoopedia/fact-bullet.tga" sx="0" sy="0" sw="32" sh="32"/>
+	</cell>            
+    <cell width="202" pady="10">
+     <color r="255" g="255" b="255">Fiordland penguins are listed as Vulnerable by the 2000 IUCN Red List. They are threatened due to a decline in prey species, fishing, human disturbance and predation. There over 5,000 but not more than 10,000 nesting pairs in the world population.</color>     
+    </cell>
+  </cell>
+  </cell>
+  <cell width="340">
+   <color r="255" g="248" b="178">
+    To unlock the Fiordland Crested Penguin in challenge or campaign games, you must earn a 2-star zoo fame rating for your zoo.
+   </color>
+   <p/>Like all the crested penguins the Fiordland Penguins have a long droopy crest of bright yellow feathers starting at the bill and extending back behind the eyes. They are very much like the Snares Penguins with the only difference being the white streaks of feathers on the cheeks of the Fiordland penguins. They are also known as the "Fiordland crested penguins" and the "thick-billed penguins".<p/>They are shy and timid and live and breed on the rugged west and southwest coastlands of the South Island of New Zealand, including two offshore islands of Stewart and Solander. The breeding and brooding habits of this penguin have been difficult to study because it lives in the temperate rainforest. The nesting areas are difficult to see because of the thick vegetation where the nests are located. The total population has been estimated to be fewer than 1,000 breeding pairs.<p/> Fiordland penguins make their nest in the soft ground in the thick undergrowth of plants well apart from other birds' nests. Usually two eggs are laid but only one chick survives. The egg is kept warm for 30 to 36 days with the male and the female taking turns on the nest in long 5 to 12 day shifts. After the eggs hatch the male stays with the chick for 2 to 3 weeks while the female brings food. Chicks are left alone to hide in the underbrush or they may form small crèches while both parents hunt food. Chicks get their adult feathers and go to sea in about 75 days.
+	Fiordland Penguin
+  </cell>
+  <p/>
+  <cell width="260"/>
+  <cell width="620">
+   Content provided courtesy of<color r="255" g="231" b="135">http://www.siec.k12.in.us/~west/proj/penguins/fiord.html</color>Made by Penguinman and recolored by Maple!
+  </cell>
+ </text>
+</zoopedia_penguinfiordland>
+</ZT2Strings>

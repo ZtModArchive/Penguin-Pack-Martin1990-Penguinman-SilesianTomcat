@@ -1,0 +1,52 @@
+<BFTypedBinder binderType="PenguinYellowEyed_Egg">
+   <types>
+      <entity>
+          <egg>
+              <PenguinYellowEyed_Egg/>
+          </egg>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity/>
+   </instance>
+   <shared>
+      <ZTPlacementData icon3Doffset="0 0 0.3" icon3Dscale="5.0"/>
+      <UIToggleButton template="adopt">
+         <UIHelpInfo name="" short="" long="" help="" ids="entityname:PenguinYellowEyed_Egg"/>
+         <on>
+            <event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="PenguinYellowEyed_Egg"/>
+         </on>
+      </UIToggleButton>
+      <BFGDetachInfo>
+         <detachActionTable>
+            <dropitem destination="drop"/>
+            <killitem destination="kill"/>
+         </detachActionTable>
+      </BFGDetachInfo>
+      <BFAIEntityDataShared s_Species="PenguinYellowEyed" s_Zoopedia="zoopedia:zoopedia_penguinyelloweyed:entry" s_Endangerment="Endangered"/>
+      <BFGBiomeData location="scrub_newzealand1" locationSensitivity="10">
+		<alpine sensitivity="2"/>
+		<borealforest sensitivity="0"/>
+		<desert sensitivity="-10"/>
+		<grassland sensitivity="0"/>
+		<temperateforest sensitivity="0"/>
+		<tropicalrainforest sensitivity="-5"/>
+		<tundra sensitivity="2" />
+		<savannah sensitivity="0"/>
+		<scrub sensitivity="10" primary="true"/>
+		<wetlands sensitivity="-5"/>
+      </BFGBiomeData>
+   </shared>
+   <binder>
+      <BFNamedBinder binderName="mainObj">
+         <instance>
+            <BFPhysObj>
+               <BFCollisionComponent grid="Bip01"/>
+				<BFActorComponent actorfile="entities/objects/eggs/PenguinYellowEyed_Egg/PenguinYellowEyed_Egg.bfm" activeSequenceName="Stand_Idle" activeSequenceAccumulate="false" scale="1.0"/>
+               <BFGroundFitComponent heightOffset="0.0"/>
+               <BFGridCollisionComponent/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+   </binder>
+</BFTypedBinder>

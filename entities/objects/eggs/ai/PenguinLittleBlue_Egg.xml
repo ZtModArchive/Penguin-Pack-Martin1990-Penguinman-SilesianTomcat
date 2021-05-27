@@ -1,0 +1,54 @@
+<BFTypedBinder binderType="PenguinLittleBlue_Egg">
+   <types>
+      <entity>
+          <egg>
+              <PenguinLittleBlue_Egg/>
+          </egg>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity/>
+   </instance>
+   <shared>
+      <UIToggleButton template="adopt">
+         <UIAspect>
+            <default image="entities/objects/eggs/PenguinLittleBlue_Egg/PenguinLittleBlue_Egg.dds"/>
+         </UIAspect>
+         <UIHelpInfo name="" short="" long="" help="" ids="entityname:PenguinLittleBlue_Egg"/>
+         <on>
+            <event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="PenguinLittleBlue_Egg"/>
+         </on>
+      </UIToggleButton>
+      <BFGDetachInfo>
+         <detachActionTable>
+            <dropitem destination="drop"/>
+            <killitem destination="kill"/>
+         </detachActionTable>
+      </BFGDetachInfo>
+      <BFAIEntityDataShared s_Species="PenguinLittleBlue" s_Zoopedia="zoopedia:zoopedia_PenguinLittleBlue:entry"/>
+      <BFGBiomeData location="scrub_newzealand" locationSensitivity="10">
+		<alpine sensitivity="2"/>
+		<borealforest sensitivity="0"/>
+		<desert sensitivity="-10"/>
+		<grassland sensitivity="0"/>
+		<temperateforest sensitivity="0"/>
+		<tropicalrainforest sensitivity="-5"/>
+		<tundra sensitivity="-5" />
+		<savannah sensitivity="0"/>
+		<scrub sensitivity="10" primary="true"/>
+		<wetlands sensitivity="-5"/>
+      </BFGBiomeData>
+   </shared>
+   <binder>
+      <BFNamedBinder binderName="mainObj">
+         <instance>
+            <BFPhysObj>
+               <BFCollisionComponent grid="Bip01"/>
+				<BFActorComponent actorfile="entities/objects/eggs/PenguinLittleBlue_Egg/PenguinLittleBlue_Egg.bfm" activeSequenceName="Stand_Idle" activeSequenceAccumulate="false" scale="0.5"/>
+               <BFGroundFitComponent heightOffset="0.0"/>
+               <BFGridCollisionComponent/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+   </binder>
+</BFTypedBinder>

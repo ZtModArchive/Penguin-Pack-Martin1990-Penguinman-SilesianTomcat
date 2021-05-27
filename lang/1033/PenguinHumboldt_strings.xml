@@ -1,0 +1,131 @@
+<ZT2Strings>
+<entityname>
+   <!--animal names-->
+      <PenguinHumboldt>Humboldt Penguin</PenguinHumboldt>
+      <PenguinHumboldt_stt>Humboldt penguin</PenguinHumboldt_stt>
+      <PenguinHumboldt_lower>the humboldt penguin</PenguinHumboldt_lower>
+      <PenguinHumboldt_ltt>
+         <color r="255" g="248" b="178">
+            <b>Humboldt Penguin</b>
+         </color>
+         <br/>
+         Click to select and then place the Humboldt Penguin, a South American penguin.
+      </PenguinHumboldt_ltt>
+<!--egg names-->
+      <PenguinHumboldt_Egg>Humboldt Penguin Egg</PenguinHumboldt_Egg>
+      <PenguinHumboldt_Egg_stt>Humboldt penguin egg</PenguinHumboldt_Egg_stt>
+      <PenguinHumboldt_Egg_lower>the humboldt penguin egg</PenguinHumboldt_Egg_lower>
+      <PenguinHumboldt_Egg_ltt>
+         <color r="255" g="248" b="178">
+            <b>Humboldt Penguin Egg</b>
+         </color>
+         <br/>
+         Click this icon to select the Humboldt Penguin egg. Move the cursor over the world and click to place the little Humboldt Penguin egg.
+       </PenguinHumboldt_Egg_ltt>
+      <!--gift names-->
+      <PenguinHumboldt_Gift>Humboldt Penguin Toy</PenguinHumboldt_Gift>
+      <PenguinHumboldt_Gift_stt>Humboldt penguin toy</PenguinHumboldt_Gift_stt>
+      <PenguinHumboldt_Gift_lower>the humboldt penguin toy</PenguinHumboldt_Gift_lower>
+      <PenguinHumboldt_Gift_ltt>
+         <color r="255" g="248" b="178">
+            <b>Humboldt Penguin toy</b>
+         </color>
+         <br/>Guests who enjoy watching the Humboldt Penguin will buy this gift.
+      </PenguinHumboldt_Gift_ltt>
+</entityname>
+<zoopedia_penguinhumboldt>
+ <entry>Penguin, Humbolt</entry>
+ <text>
+  <cell pady="0" width="1000"/>
+  <p/>
+  <cell width="260"/>
+  <cell width="640" height="320" bgimg="ui/zoopedia/topCellBg.dds">
+   <cell width="600" padx="20" pady="20">
+   
+               <cell width="284">
+						 <cell width="96" bgimg="ui/zoopedia/littleBox-128.tga">
+						  <img src="entities/units/animals/PenguinHumboldt/PenguinHumboldt_Adult_F_icon.dds" sx="0" sy="0" sw="64" sh="64" height="96" width="96"/>
+						 </cell>
+						 <cell width="16">
+						  <img src="ui/zoopedia/icon_male.dds" sx="0" sy="0" sw="64" sh="64" width="16" height="16"/>
+						 </cell>
+						 <cell width="16">
+						  <img src="ui/zoopedia/icon_female.dds" sx="0" sy="0" sw="64" sh="64" width="16" height="16"/>
+						 </cell>
+						 <cell width="156"/>
+                  <br/>   
+                  <cell width="32" pady="0">               
+                     <img src="ui/zoopedia/endangered.dds" sx="0" sy="0" sw="64" sh="64" width="32" height="32"/>
+                  </cell>                 
+                  <cell width="224" padx="10" pady="0">
+                     <color r="255" g="255" b="255">
+                     Conservation Status:
+                     <br/>
+                        <color r="255" g="100" b="0">
+                     Endangered
+                        </color>
+                     </color>                  
+                  </cell>
+               </cell>   
+   
+    <cell width="128">
+     <color r="255" g="255" b="255">Scrub<br/></color>
+     <img src="ui/icon_biomes/icon_scrub.dds" sx="0" sy="0" sw="128" sh="128" width="96" height="96"/>
+    </cell>
+    <cell width="128">
+     <color r="255" g="255" b="255">South America<br/></color> 
+     <img src="ui/icon_maplocations/Scrub_America_South.dds" sx="0" sy="0" sw="256" sh="256" width="96" height="96"/>
+    </cell>
+    <br/>
+    <cell width="284" pady="10">
+     <color r="255" g="255" b="255">Class: Birds <i>(Aves)</i><br/>Order: Penguins <i>(Sphenisciformes)</i><br/>Family: Penguins <i>(Spheniscidae)</i><br/>Genus: <i>Spheniscus</i><br/>Species: <i>humboldti</i>
+     </color>
+    </cell>
+    <cell width="256" pady="10">
+     <img src="UI/zoopedia/biome/scrub_zoopedia_biomebrush.dds" sx="0" sy="0" sw="256" sh="85"/>
+    </cell>
+   </cell>
+  </cell>
+  <p/>
+  <p/>
+  <cell width="260"/>
+  <cell width="300">
+   <cell width="64">
+    <img src="ui/zoopedia/fact-icon64.tga" sx="0" sy="0" sw="64" sh="64"/>
+   </cell>
+   <cell width="176">
+    <color r="255" g="255" b="255">
+     <font name="arial" size="12" shadowx="2" shadowy="1" shadowa="50">Fun Humboldt Penguin Facts</font>
+    </color>
+   </cell>
+   <p/>
+   <cell width="280" bgimg="ui/zoopedia/factBG.tga" padx="10">
+    <p/>
+    <cell width="32" pady="10">
+     <img src="ui/zoopedia/fact-bullet.tga" sx="0" sy="0" sw="32" sh="32"/>
+    </cell>
+    <cell width="202" pady="10">
+     <color r="255" g="255" b="255">Humboldt penguins are one of the most timid species of penguins</color>
+    </cell>
+	<cell width="32" pady="10">
+		<img src="ui/zoopedia/fact-bullet.tga" sx="0" sy="0" sw="32" sh="32"/>
+	</cell>           
+    <cell width="202" pady="10">
+     <color r="255" g="255" b="255">Humboldt penguins are named after the cold Humboldt current which flows along the coast of North and South America</color>     
+    </cell>
+  </cell>
+  </cell>
+  <cell width="340">
+   <color r="255" g="248" b="178">
+    To unlock the Humboldt Penguin in challenge or campaign games, you must earn a 1-star zoo fame rating for your zoo.
+   </color>
+   <p/>The Humboldt penguin lives on rocky mainland shores, especially near cliffs, or on coastal islands.<p/>Humboldt penguins can breed at any time of the year. Sexual maturity is reached between 2 and 7 years old. Nests are made in caves, cracks or holes and occasionally in more open sites such as rocky shore. Humboldt penguins usually dig burrow-like nests among piles of guano (accumulated droppings of sea birds) which forms in caves and along cliffs. Females lay one or two eggs and the incubation period is approximately 40 days. Both parents take turns incubating the eggs. At times, only one chick survives because hatching is staggered and one chick may be smaller than another. When food is scarce the parents feed only the larger chick and the smaller chick quickly starves.<p/>Chick care begins with parents alternating jobs of sitting with the chick and hunting for food. After about two months, the chick is left alone during the day while both parents hunt for food. Chicks are born with greyish brown, downy feathers then molt into completely grey feathers when they fledge. Humboldt penguin chicks fledge at about 70-90 days. Approximately one year after chicks fledge, they molt into adult feathers. Adult penguins have a white front and a brownish-black back and head. They also have a dark stripe across the chest and a white mark circling above each eye and forward around the neck.<p/>Humboldt penguins are social animals, living in relatively large colonies, where communication is important. Colonies are beneficial because they provide collective defense against predators. Unlike Antarctic penguins that huddle together in large groups to stay warm, Humboldt penguins have no need to do this because of the warm, temperate climate in which they live. Instead, to warm up or cool down, Humboldt penguins seek the security and comfort of their nesting burrows. Humboldt penguins, like all penguins, are monogamous. Mated penguins can recognize one another through vocal and visual mechanisms within the colony. Parents and offspring can also recognize each other easily using sight and sound. Each penguin has a unique voice which allows its mate and offspring to recognize it.<p/>Humboldt penguins have a body made to swim. Using their strong wings, they "fly" underwater, usually just below the surface, at speeds of up to 20 miles per hour (32 kmph). They steer with their feet and tail. Their feathers are stiff and overlap to waterproof and insulate their body. Dense feathers also protect the penguin in winds of up to 60 miles per hour (96 kmph). Humboldt penguins, like all penguins, can see easily underwater and on land. Also, these birds have a supraorbital gland which enables them to drink salt water in addition to fresh water. The gland withdraws excess salt from the penguins' blood and excretes it in a concentrated solution which dribbles down the bill. In zoos, Humboldt penguins usually live in fresh water and as a result the gland is dormant. Living only in fresh water does not affect the penguins' health.  
+  </cell>
+  <p/>
+  <cell width="260"/>
+  <cell width="620">
+   Content provided courtesy of<color r="255" g="231" b="135">http://www.zoo.org/educate/fact_sheets/penguin/penguin.htm</color>Made by Penguinman and skinned by Acapella! This animal is part of the South America Pack!
+  </cell>
+ </text>
+</zoopedia_penguinhumboldt>
+</ZT2Strings>

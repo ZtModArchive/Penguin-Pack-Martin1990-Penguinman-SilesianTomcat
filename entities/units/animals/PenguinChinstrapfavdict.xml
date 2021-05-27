@@ -1,0 +1,7 @@
+<BFParticleDictionary>
+     <PenguinChinstrapEmote>
+      <Conditions>
+         <BFParticleDefinition xmlFile="entities\units\animals\PenguinChinstrap\PenguinChinstrapEmote.xml" removeTime="10.0"/>
+      </Conditions>
+   </PenguinChinstrapEmote>
+   </BFParticleDictionary>

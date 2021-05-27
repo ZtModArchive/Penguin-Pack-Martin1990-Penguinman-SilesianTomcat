@@ -1,0 +1,32 @@
+<BFTypedBinder binderType="PenguinLittleBlue_Young_M">
+   <types>
+      <entity>
+         <actor>
+            <animal>
+               <Aves>
+                  <Sphenisciformes>
+                     <Spheniscidae>
+                        <PenguinLittleBlue>
+                           <PenguinLittleBlue_Young>
+                              <PenguinLittleBlue_Young_M/>
+                           </PenguinLittleBlue_Young>
+                        </PenguinLittleBlue>
+                     </Spheniscidae>
+                  </Sphenisciformes>
+               </Aves>
+            </animal>
+         </actor>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity/>
+   </instance>
+   <shared>
+      <UIToggleButton template="adopt">
+         <on>
+            <event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="PenguinLittleBlue_Young_M"/>
+         </on>
+      </UIToggleButton>
+      <BFAIEntityDataShared b_Male="1"/>
+   </shared>
+</BFTypedBinder>

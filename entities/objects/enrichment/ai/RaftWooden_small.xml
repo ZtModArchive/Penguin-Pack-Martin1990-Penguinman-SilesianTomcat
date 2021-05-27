@@ -1,0 +1,108 @@
+<BFTypedBinder binderType="RaftWooden_small">
+   <types>
+      <entity>
+         <enrichment>
+            <stationary_enrichment>
+               <RaftWooden_small/>
+            </stationary_enrichment>
+         </enrichment>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity entityVersion="1"/>
+   </instance>
+   <shared>
+      <UIToggleButton template="adopt">
+         <UIAspect>
+            <default image="entities\objects\enrichment\RaftWooden\RaftWooden_Small_icon.dds"/>
+         </UIAspect>
+         <UIHelpInfo name="" short="" long="" help="" ids="entityname:RaftWooden_small"/>
+         <on>
+            <event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="RaftWooden_small"/>
+         </on>
+      </UIToggleButton>
+      <UIToggleButton template="researchentity">
+         <UIAspect>
+            <default image="entities\objects\enrichment\RaftWooden\RaftWooden_Small_icon.dds"/>
+         </UIAspect>
+         <on>
+            <event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="RaftWooden_small"/>
+         </on>
+      </UIToggleButton>      
+      <ZTPlacementData waterPlacement="true" randomRotate="true" gridSnap="true" terrainFlatten="false" landPlacement="false" icon3Doffset="0 0 0.918257" icon3Dscale="0.278529">
+         <cfootprint width="2" height="2"/>
+         <dfootprint width="2" height="2"/>
+      </ZTPlacementData>
+      <BFAIEntityDataShared s_uisort="lf" s_Zoopedia="zoopedia:zoopedia_raftwooden:entry" f_researchUnlockTime="80" f_researchCost="600" f_FameReq="40"/>
+ 	<BFGCollisionData isPassable="false" isStatic="true"/>
+ </shared>
+   <binder>
+      <BFNamedBinder binderName="mainObj">
+         <instance>
+            <BFPhysObj>
+               <BFSimpleLODComponent modelfile="entities/objects/enrichment/RaftWooden/RaftWooden_small.nif" scale="0.40" switch="00 20 40"/>
+               <BFTravAnimPathComponent actorfile="entities/objects/enrichment/RaftWooden/RaftWooden_small_TAP.bfm"/>
+               <BFGroundFitComponent heightOffset="0.0" floatOnWater="true" waterOffset="0.0"/>
+               <BFForceUpdateWhenVisibleComponent/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFBinder>
+         <instance>
+            <ZTEconomyComponent cost="1500">
+               <ZTTransaction name="build" costType="parent" type="debit" category="animal_upkeep"/>
+               <ZTTransaction name="destroy" cost="80" costType="%parent" type="credit" category="recycling"/>
+            </ZTEconomyComponent>
+         </instance>
+      </BFBinder>
+      <BFNamedBinder binderName="TAP" repopulateMethod="byName">
+         <instance>
+            <BFGEntityContainer>
+               <slots>
+                  <BFGEntityContainerSlot enterBehSet="EnterRaftWooden_small5" useBehSet="UseRaftWooden_small" exitBehSet="ExitRaftWooden_small5" targetNode="EnterE" exclusiveID="RaftWooden_small1"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterRaftWooden_small6" useBehSet="UseRaftWooden_small" exitBehSet="ExitRaftWooden_small6" targetNode="EnterF" exclusiveID="RaftWooden_small1"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterRaftWooden_small7" useBehSet="UseRaftWooden_small" exitBehSet="ExitRaftWooden_small7" targetNode="EnterG" exclusiveID="RaftWooden_small1"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterRaftWooden_small8" useBehSet="UseRaftWooden_small" exitBehSet="ExitRaftWooden_small8" targetNode="EnterH" exclusiveID="RaftWooden_small1"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterRaftWooden_small9" useBehSet="UseRaftWooden_small" exitBehSet="ExitRaftWooden_small9" targetNode="EnterI" exclusiveID="RaftWooden_small1"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterRaftWooden_small10" useBehSet="UseRaftWooden_small" exitBehSet="ExitRaftWooden_small10" targetNode="EnterJ" exclusiveID="RaftWooden_small1"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterRaftWooden_small11" useBehSet="UseRaftWooden_small" exitBehSet="ExitRaftWooden_small11" targetNode="EnterK" exclusiveID="RaftWooden_small1"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterRaftWooden_small12" useBehSet="UseRaftWooden_small" exitBehSet="ExitRaftWooden_small12" targetNode="EnterL" exclusiveID="RaftWooden_small1"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterRaftWooden_small13" useBehSet="UseRaftWooden_small" exitBehSet="ExitRaftWooden_small13" targetNode="EnterM" exclusiveID="RaftWooden_small1"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterRaftWooden_small14" useBehSet="UseRaftWooden_small" exitBehSet="ExitRaftWooden_small14" targetNode="EnterN" exclusiveID="RaftWooden_small1"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterRaftWooden_small15" useBehSet="UseRaftWooden_small" exitBehSet="ExitRaftWooden_small15" targetNode="EnterO" exclusiveID="RaftWooden_small1"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterRaftWooden_small16" useBehSet="UseRaftWooden_small" exitBehSet="ExitRaftWooden_small16" targetNode="EnterP" exclusiveID="RaftWooden_small1"/>
+               </slots>
+            </BFGEntityContainer>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="TAP_Small" repopulateMethod="byName">
+         <instance>
+            <BFGEntityContainer>
+               <slots>
+                  <BFGEntityContainerSlot enterBehSet="EnterRaftWooden_small1" useBehSet="UseRaftWooden_small" exitBehSet="ExitRaftWooden_small1" targetNode="EnterA" exclusiveID="RaftWooden_small1"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterRaftWooden_small2" useBehSet="UseRaftWooden_small" exitBehSet="ExitRaftWooden_small2" targetNode="EnterB" exclusiveID="RaftWooden_small1"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterRaftWooden_small3" useBehSet="UseRaftWooden_small" exitBehSet="ExitRaftWooden_small3" targetNode="EnterC" exclusiveID="RaftWooden_small1"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterRaftWooden_small4" useBehSet="UseRaftWooden_small" exitBehSet="ExitRaftWooden_small4" targetNode="EnterD" exclusiveID="RaftWooden_small1"/>
+               </slots>
+            </BFGEntityContainer>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="GnawRaftWooden" repopulateMethod="byName">
+         <instance>
+            <BFGEntityContainer>
+               <slots>
+                  <BFGEntityContainerSlot enterBehSet="EnterGnawRaftWooden" useBehSet="GnawRaftWooden" exitBehSet="ExitGnawRaftWooden" targetNode="Dock_Chew_01" exclusiveID="RaftWooden_small2"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterGnawRaftWooden" useBehSet="GnawRaftWooden" exitBehSet="ExitGnawRaftWooden" targetNode="Dock_Chew_02" exclusiveID="RaftWooden_small2"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterGnawRaftWooden" useBehSet="GnawRaftWooden" exitBehSet="ExitGnawRaftWooden" targetNode="Dock_Chew_03" exclusiveID="RaftWooden_small2"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterGnawRaftWooden" useBehSet="GnawRaftWooden" exitBehSet="ExitGnawRaftWooden" targetNode="Dock_Chew_04" exclusiveID="RaftWooden_small2"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterGnawRaftWooden" useBehSet="GnawRaftWooden" exitBehSet="ExitGnawRaftWooden" targetNode="Dock_Chew_05" exclusiveID="RaftWooden_small2"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterGnawRaftWooden" useBehSet="GnawRaftWooden" exitBehSet="ExitGnawRaftWooden" targetNode="Dock_Chew_06" exclusiveID="RaftWooden_small2"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterGnawRaftWooden" useBehSet="GnawRaftWooden" exitBehSet="ExitGnawRaftWooden" targetNode="Dock_Chew_07" exclusiveID="RaftWooden_small2"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterGnawRaftWooden" useBehSet="GnawRaftWooden" exitBehSet="ExitGnawRaftWooden" targetNode="Dock_Chew_08" exclusiveID="RaftWooden_small2"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterGnawRaftWooden" useBehSet="GnawRaftWooden" exitBehSet="ExitGnawRaftWooden" targetNode="Dock_Chew_09" exclusiveID="RaftWooden_small2"/>
+               </slots>
+            </BFGEntityContainer>
+         </instance>
+      </BFNamedBinder>
+   </binder>
+</BFTypedBinder>

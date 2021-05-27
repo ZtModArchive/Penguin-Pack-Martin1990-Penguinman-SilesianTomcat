@@ -1,0 +1,137 @@
+<ZT2Strings>
+<entityname>
+   <!--animal names-->
+      <PenguinRoyal>Royal Penguin</PenguinRoyal>
+      <PenguinRoyal_stt>Royal Penguin</PenguinRoyal_stt>
+      <PenguinRoyal_lower>the Royal Penguin</PenguinRoyal_lower>
+      <PenguinRoyal_ltt>
+         <color r="255" g="248" b="178">
+            <b>Royal Penguin</b>
+         </color>
+         <br/>
+         Click to select and then place the Royal Penguin, a penguin with large crests.
+      </PenguinRoyal_ltt>
+<!--egg names-->
+      <PenguinRoyal_Egg>Royal Penguin egg</PenguinRoyal_Egg>
+      <PenguinRoyal_Egg_stt>Royal Penguin egg</PenguinRoyal_Egg_stt>
+      <PenguinRoyal_Egg_lower>the Royal Penguin egg</PenguinRoyal_Egg_lower>
+      <PenguinRoyal_Egg_ltt>
+         <color r="255" g="248" b="178">
+            <b>Royal Penguin Egg</b>
+         </color>
+         <br/>
+         Click this icon to select the Royal Penguin egg. Move the cursor over the world and click to place the little Royal Penguin egg.
+       </PenguinRoyal_Egg_ltt>
+      <!--gift names-->
+      <PenguinRoyal_Gift>Royal Penguin Toy</PenguinRoyal_Gift>
+      <PenguinRoyal_Gift_stt>Royal Penguin toy</PenguinRoyal_Gift_stt>
+      <PenguinRoyal_Gift_lower>the Royal Penguin toy</PenguinRoyal_Gift_lower>
+      <PenguinRoyal_Gift_ltt>
+         <color r="255" g="248" b="178">
+            <b>Royal Penguin toy</b>
+         </color>
+         <br/>Guests who enjoy watching the Royal Penguin will buy this gift.
+      </PenguinRoyal_Gift_ltt>
+</entityname>
+<zoopedia_penguinroyal>
+ <entry>Penguin, Royal</entry>
+ <text>
+  <cell pady="0" width="1000"/>
+  <p/>
+  <cell width="260"/>
+  <cell width="640" height="320" bgimg="ui/zoopedia/topCellBg.dds">
+   <cell width="600" padx="20" pady="20">
+   
+               <cell width="284">
+						 <cell width="96" bgimg="ui/zoopedia/littleBox-128.tga">
+						  <img src="entities/units/animals/PenguinRoyal/PenguinRoyal_icon.dds" sx="0" sy="0" sw="64" sh="64" height="96" width="96"/>
+						 </cell>
+						 <cell width="16">
+						  <img src="ui/zoopedia/icon_male.dds" sx="0" sy="0" sw="64" sh="64" width="16" height="16"/>
+						 </cell>
+						 <cell width="16">
+						  <img src="ui/zoopedia/icon_female.dds" sx="0" sy="0" sw="64" sh="64" width="16" height="16"/>
+						 </cell>
+						 <cell width="156"/>
+                  <br/>   
+                  <cell width="32" pady="0">               
+                     <img src="ui/zoopedia/vulnerable.dds" sx="0" sy="0" sw="64" sh="64" width="32" height="32"/>
+                  </cell>                 
+                  <cell width="224" padx="10" pady="0">
+                     <color r="255" g="255" b="255">
+                     Conservation Status:
+                     <br/>
+                        <color r="255" g="255" b="0">
+                      Vulnerable
+                        </color>
+                     </color>                  
+                  </cell>
+               </cell>   
+   
+    <cell width="128">
+     <color r="255" g="255" b="255">Scrub<br/></color>
+     <img src="ui/icon_biomes/icon_scrub.dds" sx="0" sy="0" sw="128" sh="128" width="96" height="96"/>
+    </cell>
+    <cell width="128">
+     <color r="255" g="255" b="255">Macquarie Island<br/></color> 
+     <img src="ui/icon_maplocations/Scrub_Macquarie_Island.dds" sx="0" sy="0" sw="256" sh="256" width="96" height="96"/>
+    </cell>
+    <br/>
+    <cell width="284" pady="10">
+     <color r="255" g="255" b="255">Class: Birds <i>(Aves)</i><br/>Order: Penguins <i>(Sphenisciformes)</i><br/>Family: Penguins <i>(Spheniscidae)</i><br/>Genus: <i>Eudyptula</i><br/>Species: <i>minor</i><br/>Sub-Species: <i>albosignata</i>
+     </color>
+    </cell>
+    <cell width="256" pady="10">
+     <img src="UI/zoopedia/biome/scrub_zoopedia_biomebrush.dds" sx="0" sy="0" sw="256" sh="85"/>
+    </cell>
+   </cell>
+  </cell>
+  <p/>
+  <p/>
+  <cell width="260"/>
+  <cell width="300">
+   <cell width="64">
+    <img src="ui/zoopedia/fact-icon64.tga" sx="0" sy="0" sw="64" sh="64"/>
+   </cell>
+   <cell width="176">
+    <color r="255" g="255" b="255">
+     <font name="arial" size="12" shadowx="2" shadowy="1" shadowa="50">Fun Royal Penguin Facts</font>
+    </color>
+   </cell>
+   <p/>
+   <cell width="280" bgimg="ui/zoopedia/factBG.tga" padx="10">
+    <p/>
+    <cell width="32" pady="10">
+     <img src="ui/zoopedia/fact-bullet.tga" sx="0" sy="0" sw="32" sh="32"/>
+    </cell>
+    <cell width="202" pady="10">
+     <color r="255" g="255" b="255">Royal penguins breed only on Macquarie Island.</color>
+    </cell>
+	<cell width="32" pady="10">
+		<img src="ui/zoopedia/fact-bullet.tga" sx="0" sy="0" sw="32" sh="32"/>
+	</cell>    
+    <cell width="202" pady="10">
+     <color r="255" g="255" b="255">Royal penguins are about 70 cm tall.</color>
+    </cell>
+	<cell width="32" pady="10">
+		<img src="ui/zoopedia/fact-bullet.tga" sx="0" sy="0" sw="32" sh="32"/>
+	</cell>            
+    <cell width="202" pady="10">
+     <color r="255" g="255" b="255">The total breeding population is estimated to be 850,000 pairs</color>     
+    </cell>
+  </cell>
+  </cell>
+  <cell width="340">
+   <color r="255" g="248" b="178">
+    To unlock the Royal Penguin in challenge or campaign games, you must earn a 2-star zoo fame rating for your zoo.
+   </color>
+   <p/>The Royal penguins are found only on the rocky Macquarie Island located far to the south of Australia in the Pacific. They share this island with the king, gentoo and rockhopper penguins. The Royal penguins breed in small colonies scattered over the island. It is estimated there are about 850, 000 breeding pairs. They feed on krill, fish and small amounts of squid.<p/>Royals along with the Macaroni penguins are the largest of the crested penguins. Both have yellowish-orange and black crests extending from the side to the tops of the head. The Royals are slightly larger and have white feathers on the cheeks and under their chins on the throat. Some scientists consider the Royals to be a sub-species of the Macaroni penguins. Royals stand 70 cm tall and weigh about 4 to 5.5 kg. The female is often smaller than the male.<p/>They build their nest by making a shallow hole in the sand or in a weeded area. They line the nest with plants and stones. Two eggs are often laid but only one chick survives. The egg is kept warm by both parents for 35 days. This is done by rotating 12 day shifts. After hatching, the male cares for the chick for 10 to 20 days while the female brings food for both. At about 20 days the chicks will form a crèche for warmth and safety. The parents continue to feed it 2 to 3 times per day. When the chick is about 65 days old it will have its adult feathers and goes on its own.
+  </cell>
+  <p/>
+  <cell width="260"/>
+  <cell width="620">
+   Content provided courtesy of<color r="255" g="231" b="135">http://www.siec.k12.in.us/~west/proj/penguins/royal.html</color>Made by Penguinman and recolored by Csleesburg!
+  </cell>
+ </text>
+</zoopedia_penguinroyal>
+</ZT2Strings>

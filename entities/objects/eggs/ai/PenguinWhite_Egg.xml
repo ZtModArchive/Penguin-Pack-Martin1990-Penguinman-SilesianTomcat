@@ -1,0 +1,54 @@
+<BFTypedBinder binderType="PenguinWhite_Egg">
+   <types>
+      <entity>
+          <egg>
+              <PenguinWhite_Egg/>
+          </egg>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity/>
+   </instance>
+   <shared>
+      <UIToggleButton template="adopt">
+         <UIAspect>
+            <default image="entities/objects/eggs/FlamingoGreater_Egg/PenguinWhite_Egg.dds"/>
+         </UIAspect>
+         <UIHelpInfo name="" short="" long="" help="" ids="entityname:PenguinWhite_Egg"/>
+         <on>
+            <event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="PenguinWhite_Egg"/>
+         </on>
+      </UIToggleButton>
+      <BFGDetachInfo>
+         <detachActionTable>
+            <dropitem destination="drop"/>
+            <killitem destination="kill"/>
+         </detachActionTable>
+      </BFGDetachInfo>
+      <BFAIEntityDataShared s_Species="PenguinWhite" s_Zoopedia="zoopedia:zoopedia_penguin:entry"/>
+      <BFGBiomeData location="scrub_new" locationSensitivity="10">
+		<alpine sensitivity="2"/>
+		<borealforest sensitivity="0"/>
+		<desert sensitivity="-10"/>
+		<grassland sensitivity="0"/>
+		<temperateforest sensitivity="0"/>
+		<tropicalrainforest sensitivity="-5"/>
+		<tundra sensitivity="10"/>
+		<savannah sensitivity="0"/>
+		<scrub sensitivity="10" primary="true"/>
+		<wetlands sensitivity="-5"/>
+      </BFGBiomeData>
+   </shared>
+   <binder>
+      <BFNamedBinder binderName="mainObj">
+         <instance>
+            <BFPhysObj>
+               <BFCollisionComponent grid="Bip01"/>
+				<BFActorComponent actorfile="entities/objects/eggs/PenguinWhite_Egg/PenguinWhite_Egg.bfm" activeSequenceName="Stand_Idle" activeSequenceAccumulate="false" scale="1.0"/>
+               <BFGroundFitComponent heightOffset="0.0"/>
+               <BFGridCollisionComponent/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+   </binder>
+</BFTypedBinder>

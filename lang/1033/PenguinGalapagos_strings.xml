@@ -1,0 +1,137 @@
+<ZT2Strings>
+<entityname>
+   <!--animal names-->
+      <PenguinGalapagos>Galapagos Penguin</PenguinGalapagos>
+      <PenguinGalapagos_stt>Galapagos Penguin</PenguinGalapagos_stt>
+      <PenguinGalapagos_lower>the Galapagos Penguin</PenguinGalapagos_lower>
+      <PenguinGalapagos_ltt>
+         <color r="255" g="248" b="178">
+            <b>Galapagos Penguin</b>
+         </color>
+         <br/>
+         Click to select and then place the Galapagos Penguin, the most northern of all penguins.
+      </PenguinGalapagos_ltt>
+<!--egg names-->
+      <PenguinGalapagos_Egg>Galapagos Penguin egg</PenguinGalapagos_Egg>
+      <PenguinGalapagos_Egg_stt>Galapagos Penguin egg</PenguinGalapagos_Egg_stt>
+      <PenguinGalapagos_Egg_lower>the Galapagos Penguin egg</PenguinGalapagos_Egg_lower>
+      <PenguinGalapagos_Egg_ltt>
+         <color r="255" g="248" b="178">
+            <b>Galapagos Penguin Egg</b>
+         </color>
+         <br/>
+         Click this icon to select the Galapagos Penguin egg. Move the cursor over the world and click to place the little Galapagos Penguin egg.
+       </PenguinGalapagos_Egg_ltt>
+      <!--gift names-->
+      <PenguinGalapagos_Gift>Galapagos Penguin Toy</PenguinGalapagos_Gift>
+      <PenguinGalapagos_Gift_stt>Galapagos Penguin toy</PenguinGalapagos_Gift_stt>
+      <PenguinGalapagos_Gift_lower>the Galapagos Penguin toy</PenguinGalapagos_Gift_lower>
+      <PenguinGalapagos_Gift_ltt>
+         <color r="255" g="248" b="178">
+            <b>Galapagos Penguin toy</b>
+         </color>
+         <br/>Guests who enjoy watching the Galapagos Penguin will buy this gift.
+      </PenguinGalapagos_Gift_ltt>
+</entityname>
+<zoopedia_penguingalapagos>
+ <entry>Galapagos Penguin</entry>
+ <text>
+  <cell pady="0" width="1000"/>
+  <p/>
+  <cell width="260"/>
+  <cell width="640" height="320" bgimg="ui/zoopedia/topCellBg.dds">
+   <cell width="600" padx="20" pady="20">
+   
+               <cell width="284">
+						 <cell width="96" bgimg="ui/zoopedia/littleBox-128.tga">
+						  <img src="entities/units/animals/PenguinGalapagos/PenguinGalapagos_icon.dds" sx="0" sy="0" sw="64" sh="64" height="96" width="96"/>
+						 </cell>
+						 <cell width="16">
+						  <img src="ui/zoopedia/icon_male.dds" sx="0" sy="0" sw="64" sh="64" width="16" height="16"/>
+						 </cell>
+						 <cell width="16">
+						  <img src="ui/zoopedia/icon_female.dds" sx="0" sy="0" sw="64" sh="64" width="16" height="16"/>
+						 </cell>
+						 <cell width="156"/>
+                  <br/>   
+                  <cell width="32" pady="0">               
+                     <img src="ui/zoopedia/endangered.dds" sx="0" sy="0" sw="64" sh="64" width="32" height="32"/>
+                  </cell>                 
+                  <cell width="224" padx="10" pady="0">
+                     <color r="255" g="255" b="255">
+                     Conservation Status:
+                     <br/>
+                        <color r="0" g="255" b="0">
+                      Endangered
+                        </color>
+                     </color>                  
+                  </cell>
+               </cell>   
+   
+    <cell width="128">
+     <color r="255" g="255" b="255">Scrub<br/></color>
+     <img src="ui/icon_biomes/icon_scrub.dds" sx="0" sy="0" sw="128" sh="128" width="96" height="96"/>
+    </cell>
+    <cell width="128">
+     <color r="255" g="255" b="255">The Galapagos Islands<br/></color> 
+     <img src="ui/icon_maplocations/Scrub_America_South_West.dds" sx="0" sy="0" sw="256" sh="256" width="96" height="96"/>
+    </cell>
+    <br/>
+    <cell width="284" pady="10">
+     <color r="255" g="255" b="255">Class: Birds <i>(Aves)</i><br/>Order: Penguins <i>(Sphenisciformes)</i><br/>Family: Penguins <i>(Spheniscidae)</i><br/>Genus: <i>Spheniscus</i><br/>Species: <i>mendiculus</i>
+     </color>
+    </cell>
+    <cell width="256" pady="10">
+     <img src="UI/zoopedia/biome/scrub_zoopedia_biomebrush.dds" sx="0" sy="0" sw="256" sh="85"/>
+    </cell>
+   </cell>
+  </cell>
+  <p/>
+  <p/>
+  <cell width="260"/>
+  <cell width="300">
+   <cell width="64">
+    <img src="ui/zoopedia/fact-icon64.tga" sx="0" sy="0" sw="64" sh="64"/>
+   </cell>
+   <cell width="176">
+    <color r="255" g="255" b="255">
+     <font name="arial" size="12" shadowx="2" shadowy="1" shadowa="50">Fun Galapagos Penguin Facts</font>
+    </color>
+   </cell>
+   <p/>
+   <cell width="280" bgimg="ui/zoopedia/factBG.tga" padx="10">
+    <p/>
+    <cell width="32" pady="10">
+     <img src="ui/zoopedia/fact-bullet.tga" sx="0" sy="0" sw="32" sh="32"/>
+    </cell>
+    <cell width="202" pady="10">
+     <color r="255" g="255" b="255">Length: 49cm.</color>
+    </cell>
+	<cell width="32" pady="10">
+		<img src="ui/zoopedia/fact-bullet.tga" sx="0" sy="0" sw="32" sh="32"/>
+	</cell>    
+    <cell width="202" pady="10">
+     <color r="255" g="255" b="255">World Population: less than 1,000 breeding pairs</color>
+    </cell>
+	<cell width="32" pady="10">
+		<img src="ui/zoopedia/fact-bullet.tga" sx="0" sy="0" sw="32" sh="32"/>
+	</cell>            
+    <cell width="202" pady="10">
+     <color r="255" g="255" b="255">Galapagos penguins are the most northern of all penguin species.</color>     
+    </cell>
+  </cell>
+  </cell>
+  <cell width="340">
+   <color r="255" g="248" b="178">
+    To unlock the Galapagos Penguin in challenge or campaign games, you must earn a 2-star zoo fame rating for your zoo.
+   </color>
+   <p/>This is the smallest of the warm weather penguins. It stands only 16 to 18 inches (40 to 45 cm) tall and weighs only 5 pounds (2 to 2.5 kg). Galapagos penguins have a thin white band that runs under their chin. They have a black upside down horseshoe shape around their belly. The Galapagos may look like the Magellanic but it is smaller and the black markings on the belly are thinner. They are found on the Galapagos Islands and on Isabela Island just north of the Equator. They are the penguins that live the farthest north.<p/> These penguins use burrows and two eggs are laid. They only mate and breed when there is plenty of food. Often only one chick is raised. Both parents tend the eggs for 38 to 40 days. Chicks are cared for by both male and female. The chick is guarded for about 30 days after hatching. The chicks molts, get their adult feathers, and are on their own in about 60 to 65 days.<p/>One of the main problems for this penguin is keeping cool. Living close to the equator it gets over 100 degrees F (38 degrees Celsius) during the daytime. They keep cool by swimming and hunting for food in the cold water of the Cromwell Current during the day. During the cool nights they sleep and nest on the land. They hold their flippers out to help the heat escape their bodies. They protect their feet from getting sunburned by holding their flippers over their feet when on land.<p/>Galapagos penguins eat mostly small fish such as mullet and sardines. They are dependent on the ocean currents to bring fish to their feeding grounds. Server weather from El Nino caused a severe shortage of food about 20 years ago. At that time over 70% of the Galapagos penguins died. Since then their numbers have increased but many scientist believe this species to be endangered. It is reported that there are about 800 breeding pairs left in the world.
+  </cell>
+  <p/>
+  <cell width="260"/>
+  <cell width="620">
+   Content provided courtesy of<color r="255" g="231" b="135">http://www.siec.k12.in.us/~west/proj/penguins/galap.html</color>Made by Penguinman and recolored by Electric Eel.
+  </cell>
+ </text>
+</zoopedia_penguingalapagos>
+</ZT2Strings>

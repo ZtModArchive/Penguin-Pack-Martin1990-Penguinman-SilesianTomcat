@@ -1,0 +1,126 @@
+<ZT2Strings>
+<entityname>
+   <!--animal names-->
+      <PenguinMac>Macaroni Penguin</PenguinMac>
+      <PenguinMac_stt>Macaroni penguin</PenguinMac_stt>
+      <PenguinMac_lower>the macaroni penguin</PenguinMac_lower>
+      <PenguinMac_ltt>
+         <color r="255" g="248" b="178">
+            <b>Macaroni Penguin</b>
+         </color>
+         <br/>
+         Click to select and then place the Macaroni Penguin, a penguin that lives in the sub-antarctic islands.
+      </PenguinMac_ltt>
+      <!--gift names-->
+      <PenguinMac_Gift>Macaroni Penguin Toy</PenguinMac_Gift>
+      <PenguinMac_Gift_stt>Macaroni Penguin toy</PenguinMac_Gift_stt>
+      <PenguinMac_Gift_lower>the Macaroni Penguin toy</PenguinMac_Gift_lower>
+      <PenguinMac_Gift_ltt>
+         <color r="255" g="248" b="178">
+            <b>Macaroni Penguin toy</b>
+         </color>
+         <br/>Guests who enjoy watching the Macaroni Penguin will buy this gift.
+      </PenguinMac_Gift_ltt>
+</entityname>
+<zoopedia_penguinmac>
+ <entry>Penguin, Macaroni</entry>
+ <text>
+  <cell pady="0" width="1000"/>
+  <p/>
+  <cell width="260"/>
+  <cell width="640" height="320" bgimg="ui/zoopedia/topCellBg.dds">
+   <cell width="600" padx="20" pady="20">
+   
+               <cell width="284">
+						 <cell width="96" bgimg="ui/zoopedia/littleBox-128.tga">
+						  <img src="entities/units/animals/PenguinMac/PenguinMac_icon.dds" sx="0" sy="0" sw="64" sh="64" height="96" width="96"/>
+						 </cell>
+						 <cell width="16">
+						  <img src="ui/zoopedia/icon_male.dds" sx="0" sy="0" sw="64" sh="64" width="16" height="16"/>
+						 </cell>
+						 <cell width="16">
+						  <img src="ui/zoopedia/icon_female.dds" sx="0" sy="0" sw="64" sh="64" width="16" height="16"/>
+						 </cell>
+						 <cell width="156"/>
+                  <br/>   
+                  <cell width="32" pady="0">               
+                     <img src="ui/zoopedia/lowrisk.dds" sx="0" sy="0" sw="64" sh="64" width="32" height="32"/>
+                  </cell>                 
+                  <cell width="224" padx="10" pady="0">
+                     <color r="255" g="255" b="255">
+                     Conservation Status:
+                     <br/>
+                        <color r="0" g="255" b="0">
+                      Low Risk
+                        </color>
+                     </color>                  
+                  </cell>
+               </cell>   
+   
+    <cell width="128">
+     <color r="255" g="255" b="255">Tundra<br/></color>
+     <img src="ui/icon_biomes/icon_tundra.dds" sx="0" sy="0" sw="128" sh="128" width="96" height="96"/>
+    </cell>
+    <cell width="128">
+     <color r="255" g="255" b="255">Sub-Antarctic Islands<br/></color> 
+     <img src="ui/icon_maplocations/tundra_subantarctica.dds" sx="0" sy="0" sw="256" sh="256" width="96" height="96"/>
+    </cell>
+    <br/>
+    <cell width="284" pady="10">
+     <color r="255" g="255" b="255">Class: Birds <i>(Aves)</i><br/>Order: Carnivores <i>(Carnivora)</i><br/>Family: Weasels, skunks, etc. <i>(Mustelidae)</i><br/>Genus: <i>Meles</i><br/>Species: <i>meles</i>
+     </color>
+    </cell>
+    <cell width="256" pady="10">
+     <img src="UI/zoopedia/biome/tundra_zoopedia_biomebrush.dds" sx="0" sy="0" sw="256" sh="85"/>
+    </cell>
+   </cell>
+  </cell>
+  <p/>
+  <p/>
+  <cell width="260"/>
+  <cell width="300">
+   <cell width="64">
+    <img src="ui/zoopedia/fact-icon64.tga" sx="0" sy="0" sw="64" sh="64"/>
+   </cell>
+   <cell width="176">
+    <color r="255" g="255" b="255">
+     <font name="arial" size="12" shadowx="2" shadowy="1" shadowa="50">Fun Macaroni Penguin Facts</font>
+    </color>
+   </cell>
+   <p/>
+   <cell width="280" bgimg="ui/zoopedia/factBG.tga" padx="10">
+    <p/>
+    <cell width="32" pady="10">
+     <img src="ui/zoopedia/fact-bullet.tga" sx="0" sy="0" sw="32" sh="32"/>
+    </cell>
+    <cell width="202" pady="10">
+     <color r="255" g="255" b="255">Macaroni Penguins were descovered by an English explorer.</color>
+    </cell>
+	<cell width="32" pady="10">
+		<img src="ui/zoopedia/fact-bullet.tga" sx="0" sy="0" sw="32" sh="32"/>
+	</cell>    
+    <cell width="202" pady="10">
+     <color r="255" g="255" b="255">Macaroni Penguins are named after the fancy young macarnoni men.</color>
+    </cell>
+	<cell width="32" pady="10">
+		<img src="ui/zoopedia/fact-bullet.tga" sx="0" sy="0" sw="32" sh="32"/>
+	</cell>            
+    <cell width="202" pady="10">
+     <color r="255" g="255" b="255">Head and body length: This penguin has beautiful yellow plumes on its head.</color>     
+    </cell>
+  </cell>
+  </cell>
+  <cell width="340">
+   <color r="255" g="248" b="178">
+    To unlock the Macaroni Penguin in challenge or campaign games, you must earn a 3-star zoo fame rating for your zoo.
+   </color>
+   <p/>Macaroni penguins are similar to the Royal penguins. They both have the yellow and black plumes joining on the top of the head. The difference is that the Macaroni has solid black feathers on the cheeks and under the chin on the throat, while the Royal penguins have white chins. There are large breeding colonies of Macaroni penguins on the sub-Antarctic Islands of South Georgia, Crozet, Kerguelen, Heard & McDonald Islands. Colonies are also located on the small islands off the southern tips of South America and Africa.<p/> There are an estimated total population of 12 million breeding pairs of Macaroni penguins. They stand about 28 inches (71 cm) tall and weigh 11 to 13 lbs. (5 to 6 kg). This penguin was named by the early English explorers. In the mid 18th century, a young man who wore flashy feathers in his hat was called a "Macaroni". This is also the origin for the words to "Yankee Doodle" sung during the Revolutionary War to poke fun at the poorly dressed Continental Army. The English explorers thought the yellow feathers of this penguin was like a fancy young man called a macaroni.<p/> Macaroni penguins build a crude nest by scraping a shallow hole in mud or gravel among rocks. The first egg laid is smaller and less likely to hatch. It is often lost to predators and fighting that occurs in the large breeding colonies. The second egg is larger and more likely to hatch. The incubation, keeping the egg warm, is done by both male and female in long shifts. The egg usually hatches within 33 to 37 days.<p/>The male cares for the newly hatched chick for 23 to 25 days while the female brings food daily. At this time chicks have a down covering and they form groups with other chicks called "crèches" for warmth and protection. The parents will feel them every 1 to 2 days until they have their adult feathers and are ready to go on their own. This takes place in about 60 to 70 days. Macaroni penguins eat mostly krill with small amounts of squid.
+  </cell>
+  <p/>
+  <cell width="260"/>
+  <cell width="620">
+   Content provided courtesy of<color r="255" g="231" b="135">http://www.siec.k12.in.us/~west/proj/penguins/mac.html</color>Made and recolored by Penguinman!
+  </cell>
+ </text>
+</zoopedia_penguinmac>
+</ZT2Strings>

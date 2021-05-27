@@ -1,0 +1,22 @@
+<BehaviorSets>
+   <BuyPenguinBlackfoGift>
+      <subjects>
+         <Guest_Young/>
+      </subjects>
+      <behaviors>
+         <BFBehPlaySet behSet="DockGiftCart"/>
+         <BFBehAttachObject attachEntity="PenguinBlackfo_Gift" subjectNode="Bip01 Spine3" detachAction="inventory" container="back_inventory"/>
+         <BFBehAnimate targetAnim="Stand_Turn180"/>
+      </behaviors>
+   </BuyPenguinBlackfoGift>
+   <BuyPenguinBlackfoGift>
+      <subjects>
+         <Guest_Adult/>
+      </subjects>
+      <behaviors>
+         <BFBehPlaySet behSet="DockGiftCart"/>
+         <BFBehAttachObject attachEntity="PenguinBlackfo_Gift" subjectNode="Bip01 Spine3" detachAction="inventory" container="back_inventory"/>
+         <BFBehAnimate targetAnim="Stand_Turn180"/>
+      </behaviors>
+   </BuyPenguinBlackfoGift>
+</BehaviorSets>

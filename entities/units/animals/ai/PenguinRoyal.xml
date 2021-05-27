@@ -1,0 +1,170 @@
+<BFTypedBinder binderType="PenguinRoyal" abstract="true">
+	<types>
+		<entity>
+			<actor>
+				<animal>
+					<Aves>
+						<Sphenisciformes>
+							<Spheniscidae>
+								<PenguinRoyal />
+							</Spheniscidae>
+						</Sphenisciformes>
+					</Aves>
+				</animal>
+			</actor>
+		</entity>
+	</types>
+	<instance>
+		<BFGEntity />
+	</instance>
+	<shared>
+		<UIToggleButton template="adopt">
+			<UIAspect>
+				<default image="entities\units\animals\PenguinRoyal\PenguinRoyal_icon.dds" />
+			</UIAspect>
+			<UIHelpInfo ids="entityname:PenguinRoyal" />
+			<on>
+				<event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="PenguinRoyal_Adult_F" />
+			</on>
+		</UIToggleButton>
+		<ZTPlacementData icon3Doffset="0 0 1.09" icon3Dscale="1.63" waterPlacement="true" />
+		<BFAIEntityDataShared f_BaseDonationAmount="80" f_MaxTourValue="30" s_DonateToken="t_DonatePenguinRoyal" p_FightOffset="0 -.75 180" p_FeedYoungNode="0 -.35 180" p_EggOffset="0 -.5 0" p_MateOffset="-1 0 0" p_PreyOffset="0 .5 0" b_Prey="true" s_Species="PenguinRoyal" b_Medium="true" b_Crustacivore="true" b_Piscivore="true" s_KeeperEatType="Terrain_Fish" b_SmallAnimal="true" b_FoodDishEater="true" s_KeeperDrinkType="FoodDish_Water" f_adoptRemoveTime="0" f_adoptRarity="20" s_Zoopedia="zoopedia:zoopedia_penguinroyal:entry" f_RequiredInitialSpace="12" f_RequiredAdditionalSpace="12" f_LocoSearchHorizon="25" p_PredatorOffset="0 -.75 180" s_Endangerment="Vulnerable"/>
+		<BFGBiomeData location="scrub_macquarie" locationSensitivity="10">
+			<alpine sensitivity="2" />
+			<borealforest sensitivity="-5" />
+			<desert sensitivity="-10" />
+			<grassland sensitivity="5" />
+			<temperateforest sensitivity="-5" />
+			<tropicalrainforest sensitivity="-5" />
+			<tundra sensitivity="10" />
+			<savannah sensitivity="0" />
+			<scrub sensitivity="10" primary="true" />
+			<wetlands sensitivity="-5" />
+		</BFGBiomeData>
+		<ZTUserStaffAction>
+			<SetAttribute name="hygiene" value="0" threshold="20" locid="superstaff:animal_groom" effect="SuperStaffGroom" />
+			<SetAttribute name="health" value="0" threshold="20" locid="superstaff:animal_heal" effect="SuperStaffHeal" />
+		</ZTUserStaffAction>
+	</shared>
+	<binder>
+		<BFNamedBinder binderName="mainObj">
+			<instance>
+				<BFPhysObj>
+					<BFShadowLODComponent numLevels="1" switchingDists="60.0" />
+					<BFActorComponent actorfile="entities/units/animals/PenguinRoyal/PenguinRoyal_Adult_F.bfm" scale=".8" />
+					<BFSecondaryAnimComponent animName="Secondary_TailA" frequency="1.5" chance="40" validAnims="Stand_Idle,Pee_Idle,Poop_Idle,Stand_AlarmCall,Stand_CleanWingL,Stand_CleanWingR,Stand_HeadBob,Stand_MatingCall,Stand_MutualCall,Stand_Scratch,Stand_Shake,Stand_Stretch,Stand_Threat,Stand_Turn180,Stand_TurnLeftA,Stand_TurnRightA,Stand_Yawn,Eat_Idle,FeedYoung_Idle,FootInspection_Idle,Rest_Idle" />
+					<BFSecondaryAnimComponent animName="Secondary_WingsA" frequency="8" chance="40" validAnims="Stand_Idle,Pee_Idle,Poop_Idle,Stand_CleanWingL,Stand_CleanWingR,Stand_HeadBob,Stand_Turn180,Stand_TurnLeftA,Stand_TurnRightA,Stand_Yawn,Eat_Idle,FeedYoung_Idle,FootInspection_Idle" />
+					<BF2LegsGroundFitComponent rightAnkleJoint="Bip01 R Foot" leftAnkleJoint="Bip01 L Foot" ankleRotVectorLeft="0 0 -1" ankleRotVectorRight="0 0 -1" heightOffset="0" fitRadius=".15" frontBuoyancyNode="Node_Buoy" />
+					<BFSwimComponent waterInDistance="0.50" waterOutDistance="0.1" />
+					<BFForwardMovingComponent />
+					<BFRotYawMovingComponent />
+					<BFCollisionComponent grid="Bip01 Spine1" />
+					<BFGridCollisionComponent />
+					<BFDecalTextureCycleComponent materialName="PenguinRoyal_Adult_MTL">
+						<Step imageName="entities/units/animals/shared/tiger_blink_blank.dds" hold="3.0" variance="0.5" />
+						<Step imageName="entities/units/animals/shared/tiger_blink02.dds" hold="0.08" variance="" />
+						<Step imageName="entities/units/animals/shared/tiger_blink.dds" hold="0.1" variance="" />
+						<Step imageName="entities/units/animals/shared/tiger_blink02.dds" hold="0.08" variance="" />
+					</BFDecalTextureCycleComponent>
+					<BFHeadLookComponent leftRightAnimName="Secondary_HeadLook" lookDirNode="Bip01 Head" lookDirVector="0 1 0" gain_z="-2" fov_extreme_lr="90.0" />
+				</BFPhysObj>
+			</instance>
+			<shared>
+				<BFTextTagMacrosComponent>
+					<MACROS>
+						<macro name="Walky" text="anim &apos;Walk_Ahead&apos;" />
+						<macro name="Walky2Standy" text="anim &apos;Walk_2Stand&apos;, anim&apos;Stand_Idle&apos;" />
+						<macro name="Stand2LieBelly" text="anim &apos;Stand_2Rest&apos;, anim &apos;Rest_Idle&apos;" />
+						<macro name="LieBelly2Stand" text="anim &apos;Rest_2Stand&apos;, anim &apos;Stand_Idle&apos;" />
+						<macro name="Standy2Walky" text="anim &apos;Stand_2Walk&apos;, anim &apos;Walk_TurnLeftA&apos;" />
+						<macro name="LieOnBelly" text="anim &apos;Rest_Idle&apos;" />
+						<macro name="TurnLeft180" text="anim &apos;Stand_Turn180&apos;" />
+						<macro name="TurnRight180" text="anim &apos;Stand_Turn180&apos;" />
+						<macro name="TurnLeft90" text="anim &apos;Stand_TurnLeftA&apos;" />
+						<macro name="TurnRight80" text="anim &apos;Stand_TurnRightA&apos;" />
+						<macro name="Stand2Swimming" text="anim &apos;Stand_2Walk&apos;, anim &apos;Walk_Ahead&apos;, anim &apos;Walk_Ahead&apos;,  anim &apos;Walk_Ahead&apos;,  anim &apos;Walk_Ahead&apos;,  anim &apos;Walk_Ahead&apos;,  anim &apos;Walk_Ahead&apos;, as 100 1, anim &apos;Walk_2Swim&apos;" />
+					</MACROS>
+				</BFTextTagMacrosComponent>
+			</shared>
+		</BFNamedBinder>
+		<BFBinder required="1">
+			<instance>
+				<BFBehaviorMgr behaviorVersion="1">
+					<subBehaviors>
+						<BFBehLocoSwitchSet loopFlag="true">
+							<behaviorTable>
+								<ground behSet="Stand_Idle" />
+								<water behSet="TreadWater_Idle" />
+							</behaviorTable>
+						</BFBehLocoSwitchSet>
+					</subBehaviors>
+				</BFBehaviorMgr>
+			</instance>
+		</BFBinder>
+		<BFBinder required="1">
+			<instance>
+				<BFLocomotionMgr />
+			</instance>
+			<binder>
+				<BFNamedBinder binderName="ground" required="1">
+					<instance>
+						<BFLocoAnimate version="1">
+							<stop name="Stand" />
+							<slow name="Walk" minAnimSpeed="1.5" maxAnimSpeed="2.0" />
+							<medium name="Walk" minAnimSpeed="2.0" maxAnimSpeed="2.5" />
+							<fast name="Walk" minAnimSpeed="2.5" maxAnimSpeed="3.0" />
+							<slide name="Slide" />
+							<slenderwalk name="SlenderWalk" />
+						</BFLocoAnimate>
+					</instance>
+				</BFNamedBinder>
+				<BFNamedBinder binderName="groundcarry" required="1">
+					<instance>
+						<BFLocoAnimate version="1" stationaryAnim="Stand_Idle">
+							<stop name="Stand" />
+							<slow name="WalkEgg" />
+							<medium name="WalkEgg" />
+							<fast name="WalkEgg" />
+						</BFLocoAnimate>
+					</instance>
+				</BFNamedBinder>
+				<BFNamedBinder binderName="water" required="1">
+					<instance>
+						<BFLocoAnimate version="1" stationaryAnim="TreadWater_Idle">
+							<stop name="TreadWater" />
+							<slow name="Swim" />
+							<medium name="Swim" />
+							<fast name="Swim" />
+							<slenderwalk name="Swim" />
+						</BFLocoAnimate>
+					</instance>
+				</BFNamedBinder>
+			</binder>
+		</BFBinder>
+		<BFNamedBinder binderName="feet" required="1">
+			<instance>
+				<BFGEntityContainer>
+					<slots>
+						<BFGEntityContainerSlot ownContents="false" hideContents="false" capacity="1" />
+					</slots>
+				</BFGEntityContainer>
+			</instance>
+		</BFNamedBinder>
+		<BFNamedBinder binderName="foodprop" repopulateMethod="byName" required="1">
+			<instance>
+				<BFGEntityContainer>
+					<slots>
+						<BFGEntityContainerSlot ownContents="false" hideContents="false" capacity="1" />
+					</slots>
+				</BFGEntityContainer>
+			</instance>
+		</BFNamedBinder>
+		<BFBinder>
+			<instance>
+				<ZTEconomyComponent cost="2000">
+					<ZTTransaction name="build" costType="parent" type="debit" category="animal" />
+				</ZTEconomyComponent>
+			</instance>
+		</BFBinder>
+	</binder>
+</BFTypedBinder>

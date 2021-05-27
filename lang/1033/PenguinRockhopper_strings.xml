@@ -1,0 +1,137 @@
+<ZT2Strings>
+<entityname>
+   <!--animal names-->
+      <PenguinRockhopper>Rockhopper Penguin</PenguinRockhopper>
+      <PenguinRockhopper_stt>Rockhopper Penguin</PenguinRockhopper_stt>
+      <PenguinRockhopper_lower>the Rockhopper Penguin</PenguinRockhopper_lower>
+      <PenguinRockhopper_ltt>
+         <color r="255" g="248" b="178">
+            <b>Rockhopper Penguin</b>
+         </color>
+         <br/>
+         Click to select and then place the Rockhopper Penguin, penguin from Antarctic islands.
+      </PenguinRockhopper_ltt>
+<!--egg names-->
+      <PenguinRockhopper_Egg>Rockhopper Penguin egg</PenguinRockhopper_Egg>
+      <PenguinRockhopper_Egg_stt>Rockhopper Penguin egg</PenguinRockhopper_Egg_stt>
+      <PenguinRockhopper_Egg_lower>the Rockhopper Penguin egg</PenguinRockhopper_Egg_lower>
+      <PenguinRockhopper_Egg_ltt>
+         <color r="255" g="248" b="178">
+            <b>Rockhopper Penguin Egg</b>
+         </color>
+         <br/>
+         Click this icon to select the Rockhopper Penguin egg. Move the cursor over the world and click to place the little Rockhopper Penguin egg.
+       </PenguinRockhopper_Egg_ltt>
+      <!--gift names-->
+      <PenguinRockhopper_Gift>Rockhopper Penguin Toy</PenguinRockhopper_Gift>
+      <PenguinRockhopper_Gift_stt>Rockhopper Penguin toy</PenguinRockhopper_Gift_stt>
+      <PenguinRockhopper_Gift_lower>the Rockhopper Penguin toy</PenguinRockhopper_Gift_lower>
+      <PenguinRockhopper_Gift_ltt>
+         <color r="255" g="248" b="178">
+            <b>Rockhopper Penguin toy</b>
+         </color>
+         <br/>Guests who enjoy watching the Rockhopper Penguin will buy this gift.
+      </PenguinRockhopper_Gift_ltt>
+</entityname>
+<zoopedia_penguinrockhopper>
+ <entry>Rockhopper Penguin</entry>
+ <text>
+  <cell pady="0" width="1000"/>
+  <p/>
+  <cell width="260"/>
+  <cell width="640" height="320" bgimg="ui/zoopedia/topCellBg.dds">
+   <cell width="600" padx="20" pady="20">
+   
+               <cell width="284">
+						 <cell width="96" bgimg="ui/zoopedia/littleBox-128.tga">
+						  <img src="entities/units/animals/PenguinRockhopper/PenguinRockhopper_icon.dds" sx="0" sy="0" sw="64" sh="64" height="96" width="96"/>
+						 </cell>
+						 <cell width="16">
+						  <img src="ui/zoopedia/icon_male.dds" sx="0" sy="0" sw="64" sh="64" width="16" height="16"/>
+						 </cell>
+						 <cell width="16">
+						  <img src="ui/zoopedia/icon_female.dds" sx="0" sy="0" sw="64" sh="64" width="16" height="16"/>
+						 </cell>
+						 <cell width="156"/>
+                  <br/>   
+                  <cell width="32" pady="0">               
+                     <img src="ui/zoopedia/vulnerable.dds" sx="0" sy="0" sw="64" sh="64" width="32" height="32"/>
+                  </cell>                 
+                  <cell width="224" padx="10" pady="0">
+                     <color r="255" g="255" b="255">
+                     Conservation Status:
+                     <br/>
+                        <color r="255" g="255" b="0">
+                      Vulnerable
+                        </color>
+                     </color>                  
+                  </cell>
+               </cell>   
+   
+    <cell width="128">
+     <color r="255" g="255" b="255">Tundra<br/></color>
+     <img src="ui/icon_biomes/icon_tundra.dds" sx="0" sy="0" sw="128" sh="128" width="96" height="96"/>
+    </cell>
+    <cell width="128">
+     <color r="255" g="255" b="255">Sub-Antarctic Islands<br/></color> 
+     <img src="ui/icon_maplocations/Tundra_Subantarctica.dds" sx="0" sy="0" sw="256" sh="256" width="96" height="96"/>
+    </cell>
+    <br/>
+    <cell width="284" pady="10">
+     <color r="255" g="255" b="255">Class: Birds <i>(Aves)</i><br/>Order: Penguins <i>(Sphenisciformes)</i><br/>Family: Penguins <i>(Spheniscidae)</i><br/>Genus: <i>Eudyptes</i><br/>Species: <i>chrysocome</i>
+     </color>
+    </cell>
+    <cell width="256" pady="10">
+     <img src="UI/zoopedia/biome/tundra_zoopedia_biomebrush.dds" sx="0" sy="0" sw="256" sh="85"/>
+    </cell>
+   </cell>
+  </cell>
+  <p/>
+  <p/>
+  <cell width="260"/>
+  <cell width="300">
+   <cell width="64">
+    <img src="ui/zoopedia/fact-icon64.tga" sx="0" sy="0" sw="64" sh="64"/>
+   </cell>
+   <cell width="176">
+    <color r="255" g="255" b="255">
+     <font name="arial" size="12" shadowx="2" shadowy="1" shadowa="50">Fun Rockhopper Penguin Facts</font>
+    </color>
+   </cell>
+   <p/>
+   <cell width="280" bgimg="ui/zoopedia/factBG.tga" padx="10">
+    <p/>
+    <cell width="32" pady="10">
+     <img src="ui/zoopedia/fact-bullet.tga" sx="0" sy="0" sw="32" sh="32"/>
+    </cell>
+    <cell width="202" pady="10">
+     <color r="255" g="255" b="255">Each year, penguins molt, losing their old feathers and growing new ones.</color>
+    </cell>
+	<cell width="32" pady="10">
+		<img src="ui/zoopedia/fact-bullet.tga" sx="0" sy="0" sw="32" sh="32"/>
+	</cell>    
+    <cell width="202" pady="10">
+     <color r="255" g="255" b="255">Rockhopper penguins are eaten by blue sharks, leopard seals and fur seals.</color>
+    </cell>
+	<cell width="32" pady="10">
+		<img src="ui/zoopedia/fact-bullet.tga" sx="0" sy="0" sw="32" sh="32"/>
+	</cell>            
+    <cell width="202" pady="10">
+     <color r="255" g="255" b="255">Rockhoppers breed from October to April.</color>     
+    </cell>
+  </cell>
+  </cell>
+  <cell width="340">
+   <color r="255" g="248" b="178">
+    To unlock the Rockhopper Penguin in challenge or campaign games, you must earn a 2-star zoo fame rating for your zoo.
+   </color>
+   <p/>Rockhoppers are part of a family of penguins called the crested penguins because of the brightly colored feathers on their heads. These bright feathers look like long eyebrows. Rockhoppers are the smallest of the crested penguins. They eat squid, krill , and other small fish.<p/>Rockhoppers live on most of the islands in the Antarctic region. There are major colonies on the Falkland Islands. It is estimated that there are over 3 million breeding pairs. Rockhoppers are about 18 to 23 inches (45 to 58 centimeters) and can weigh about 5 to 8 pounds (2 to 3 kilograms). They get their name because they hop over rocks and crevices on the shores where they live.<p/>Penguins make their nests by scraping a hole in the ground and lining it with dried grasses. Two eggs are usually laid. Often only one chick is survives. The first egg is smaller and often gets eaten by predators. The second egg is larger and the chick that hatches from this egg has a better chance of surviving. Rockhoppers are loud, noisy, and feisty birds. They are quick to attack anyone or anything that bothers them.<p/> The male and female guard the eggs and keep them warm for 32 to 34 days. They take turns with each taking care of the eggs for 10 days at a time. When the chick is hatched the male broods and cares for the chick while the female fishes and brings home food. When the chick is about 4 weeks old they huddle with other chicks. These large groups are called "crèches". The chicks do this for warmth and protection. The chicks molt and leave for the open sea when they are 65 to 72 days old.
+  </cell>
+  <p/>
+  <cell width="260"/>
+  <cell width="620">
+   Content provided courtesy of<color r="255" g="231" b="135">http://www.siec.k12.in.us/~west/proj/penguins/rock.html</color>Made by Penguinman and recolored by Electric Eel.
+  </cell>
+ </text>
+</zoopedia_penguinrockhopper>
+</ZT2Strings>

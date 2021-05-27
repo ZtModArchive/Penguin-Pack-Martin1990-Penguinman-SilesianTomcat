@@ -1,0 +1,161 @@
+<ZT2Strings>
+<entityname>
+   <!--animal names-->
+      <PenguinMagella>Magellanic Penguin </PenguinMagella>
+      <PenguinMagella_stt>Magellanic Penguin </PenguinMagella_stt>
+      <PenguinMagella_lower>the Magellanic Penguin</PenguinMagella_lower>
+      <PenguinMagella_ltt>
+         <color r="255" g="248" b="178">
+            <b>Magellanic Penguin </b>
+         </color>
+         <br/>
+         Click to select and then place the Magellanic Penguin, made by martin1990
+      </PenguinMagella_ltt>
+      <!--gift names-->
+      <PenguinMagella_Gift>Magellanic Penguin toy</PenguinMagella_Gift>
+      <PenguinMagella_Gift_stt>Magellanic Penguin toy</PenguinMagella_Gift_stt>
+      <PenguinMagella_Gift_lower>the Magellanic Penguin toy</PenguinMagella_Gift_lower>
+      <PenguinMagella_Gift_ltt>
+         <color r="255" g="248" b="178">
+            <b>Magellanic Penguin toy</b>
+         </color>
+         <br/>Guests who enjoy watching the Magellanic Penguin will buy this gift.
+      </PenguinMagella_Gift_ltt>
+<!--egg names-->
+      <PenguinMagella_Egg>Magellanic Penguin egg</PenguinMagella_Egg>
+      <PenguinMagella_Egg_stt>Magellanic Penguin egg</PenguinMagella_Egg_stt>
+      <PenguinMagella_Egg_lower>the Magellanic Penguin egg</PenguinMagella_Egg_lower>
+      <PenguinMagella_Egg_ltt>
+         <color r="255" g="248" b="178">
+            <b>Magellanic Penguin Egg</b>
+         </color>
+         <br/>
+         Click this icon to select the Magellanic Penguin egg. Move the cursor over the world and click to place the Magellanic Penguin egg.
+       </PenguinMagella_Egg_ltt>
+   </entityname>
+ <zoopedia_penguinmagella>
+  <entry>Penguin, Magellanic</entry> 
+ <text>
+  <cell pady="0" width="1000" /> 
+  <p /> 
+  <cell width="260" /> 
+ <cell width="640" height="320" bgimg="ui/zoopedia/topCellBg.dds">
+ <cell width="600" padx="20" pady="20">
+ <cell width="96" bgimg="ui/zoopedia/littleBox-128.tga">
+  <img src="entities/units/animals/PenguinMagella/PenguinMagella_icon.dds" sx="0" sy="0" sw="64" sh="64" height="96" width="96" /> 
+  </cell>
+ <cell width="16">
+  <img src="ui/zoopedia/icon_male.dds" sx="0" sy="0" sw="64" sh="64" width="16" height="16" /> 
+  </cell>
+ <cell width="16">
+  <img src="ui/zoopedia/icon_female.dds" sx="0" sy="0" sw="64" sh="64" width="16" height="16" /> 
+  </cell>
+  <cell width="156" /> 
+ <cell width="128">
+ <color r="255" g="255" b="255">
+  Scrub 
+  <br /> 
+  </color>
+  <img src="ui/icon_biomes/icon_scrub.dds" sx="0" sy="0" sw="128" sh="128" width="96" height="96" /> 
+  </cell>
+ <cell width="128">
+ <color r="255" g="255" b="255">
+  Around the Falkland Islands and South America 
+  <br /> 
+  </color>
+  <img src="ui/icon_maplocations/Scrub_1990.dds" sx="0" sy="0" sw="256" sh="256" width="96" height="96" /> 
+  </cell>
+  <br /> 
+ <cell width="284">
+ <color r="255" g="255" b="255">
+  Class: Birds 
+  <i>(Aves)</i> 
+  <br /> 
+  Order: Penguins 
+  <i>(Sphenisciformes)</i> 
+  <br /> 
+  Family: Penguins 
+  <i>(Spheniscidae)</i> 
+  <br /> 
+  Genus: 
+  <i>Spheniscus</i> 
+  <br /> 
+  Species: 
+  <i>magellanicus</i> 
+  <br /> 
+  Conservation Status: 
+  <color r="255" g="204" b="51">Lower risk</color> 
+  </color>
+  </cell>
+ <cell width="256" pady="10">
+  <img src="UI/zoopedia/biome/scrub_zoopedia_biomebrush.dds" sx="0" sy="0" sw="256" sh="85" /> 
+  </cell>
+  </cell>
+  </cell>
+  <p /> 
+  <p /> 
+  <cell width="260" /> 
+ <cell width="300">
+ <cell width="64">
+  <img src="ui/zoopedia/fact-icon64.tga" sx="0" sy="0" sw="64" sh="64" /> 
+  </cell>
+ <cell width="176">
+ <color r="255" g="255" b="255">
+  <font name="arial" size="12" shadowx="2" shadowy="1" shadowa="50">Fun Magellanic Penguin Facts</font> 
+  </color>
+  </cell>
+  <p /> 
+ <cell width="280" bgimg="ui/zoopedia/factBG.tga" padx="10">
+  <p /> 
+ <cell width="32" pady="10">
+  <img src="ui/zoopedia/fact-bullet.tga" sx="0" sy="0" sw="32" sh="32" /> 
+  </cell>
+ <cell width="202" pady="10">
+  <color r="255" g="255" b="255">Made By martin1990.</color> 
+  </cell>
+  </cell>
+  </cell>
+ <cell width="340">
+  <color r="255" g="248" b="178">To unlock the Magellanic Penguin in challenge or campaign games, you must earn a 2-star zoo fame rating for your zoo.</color> 
+                      
+  <p />
+  The Magellanic penguin is around 70cm long, and has an average weight of about 4kg. The head and upper parts are black apart from two broad white stripes beneath the throat; one running up behind the cheeks and above the eye to join the pinkish gape, the second running adjacent to the white underparts with which they merge above the legs. Females are slightly smaller than the males, but have similar plumage.
+  <p /> 
+Penguins of the Genus Spheniscus, to which Magellanic, Humboldt and Galapagos penguins all belong, are much more loosely colonial than other penguins. They generally nest in burrows when soil conditions permit, and are consequently spaced much further apart than surface-nesting penguins. Magellanic penguin colonies in particular often extend over several kilometres of coastline, at densities ranging from 0.001 to 0.1 nests per sq.m. 
+  <p />
+Magellanic penguins are widely distributed throughout the region. They particularly like offshore islands with tussac grass or small shrubs, which are in abundance around the Falkland Islands, Tierra del Fuego and the Pacific coast of Chile. Such islands offer deep layers of soil for burrowing into, and dense vegetation offering protection from aerial predators. The Atlantic coast of mainland Argentina is much drier, and has less vegetation cover, but it is still home to around 650,000 breeding pairs, many of which nest above ground in surface scrapes or under bushes. Magellanic Penguins prefer to nest in burrows, but when soil conditions are unsuitable for burrowing, they will nest on the surface using whatever protection they can find.
+  <p />
+Adults arrive at the nest sites to breed in September, and after a period of burrow excavation and repair, begin egg laying around mid October. Two equally sized eggs are laid 4 days apart, each with a weight of around 125g. Incubation takes around 40 days, with the female incubating the eggs for the first shift, while the male feeds at sea. He forages at distances of up to 500km away from the breeding site, before returning to relieve the female some 15 or 20 days later. She then goes to sea for a similar period, and when she returns, the two birds change over at regular intervals until the eggs hatch. 
+  <p />
+Both parents continue to brood the chicks in turn on a daily basis, for a period of about 30 days. Chicks are fed daily, with adults leaving the colony in early morning, and returning with food later the same day. Magellanic penguins mostly forage within 30km of the nest site during chick-rearing, except in the Falklands where longer foraging trips are forced by conflict with commercial fishing.
+<p />
+By the end of 30 days the chicks have developed their mesoptile plumage, and are able to venture out of the burrows. At this stage they look very different from the adults, being a browny grey above, and creamy white below. Living in burrows, chicks have good protection from both predators and cold weather while both parents are away feeding, and consequently they do not form creches in the way that most surface-breeding species do. 
+<p />
+Whilst burrows offer good protection from most weather conditions, heavy rain can result in flooding of the burrows in certain areas. Chicks rarely drown in such circumstances, but often become wet and cold. Mesoptile plumage provides excellent insulation when dry, but it lacks the waterproofing qualities of the adult plumage and loses much of its insulation properties when wet. Consequently many chicks can die from hypothermia in such conditions. Living in burrows also means that both chicks and adults become infested with penguin fleas.
+<p />
+Despite the two eggs being of roughly equal size, adults give feeding priority to the first chick to hatch, resulting in a higher rate of mortality amongst second chicks. Nevertheless Magellanic penguins often rear two chicks successfully when sufficient food can be caught. Normal productivity ranges from 1.0 to 1.6 chicks per breeding pair in South America, but averages only 0.5 chicks per pair in the Falklands due to lack of protection from commercial fishing. Magellanic penguins do not relay if they loose their clutch.
+<p />
+When the weather is fine larger chicks often sit outside their burrow entrances, but will rapidly return to the safety of their burrows at the first sign of danger. Fledging occurs at 9 to 17 weeks of age, depending on food. Fledglings look similar to the adults, except for being greyer and lacking the clearly defined banding of the adults. Average fledging weight is around 3.3kg in South America, but only 2.7kg in the Falklands due to the difficulty adults encounter finding sufficient food for their chicks. Generally fledglings weighing less than 3kg are unlikely to survive, and juvenile survival in the Falklands is very low, resulting in an 80% decline since the onset of commercial fishing.
+<p />
+Freedom from parental responsibilities allows the adults to spend a period of time at sea, feeding up in preparation for their annual moult in March. Moulting takes 3 to 4 weeks, after which the adults leave the breeding site, and remain at sea until the following breeding season. Magellanic penguins can live to about 20 years of age.
+<p />
+Females may begin breeding at 4 years of age, but the males do not normally breed until they are at least 5 years old. This is quite possibly a consequence of there being more males than females, making it easier for inexperienced females to find partners than for inexperienced males. Magellanic penguins generally show strong site and mate fidelity, and pair-bonds are reinforced by allopreening.
+<p />
+Magellanic penguins are opportunistic feeders, taking roughly equal proportions of fish (such as Micromesistius australis, Sprattus fuegensis, Engraulis anchoita, Merluccius hubbsi, Patagonotothen sp., Austroatherina sp., Myxinus sp.), squid (Loligo gahi, Gonatus antarcticus, Moroteuthis ingens, Onychoteuthis sp.) and crustaceans (Munida gregaria). During chick-rearing, foraging trips are generally conducted on a daily basis during daylight hours, except in the Falklands where food is harder to find. Birds generally forage at depths of less than 50m, but on occasions may dive up to 100m. Winter foraging for prey often takes them way beyond their normal breeding range, with birds travelling as far north as the Bahia region of Brazil.
+<p />
+Magellanic penguins declined severely in the Falkland Islands during the 1980's and 1990's, which coincided with the rise of commercial fishing for squid and finfish. The current Falklands population (2002/03) stands at just 20% of its 1990/91 level, and this decline is still continuing. These declines have not occurred in nearby Chile or Argentina where colonies are protected from commercial fishing.
+<p />
+Comparisons of colonies in the Falklands, Chile and Argentina confirm that competition with commercial fishing is the major cause of the Falklands decline. Adult penguins in Chile and Argentina are able to return with food for their chicks on a daily basis, with foraging trips averaging 16 to 18 hours. By contrast adults in the Falkland Islands take approximately 35 hours to find the same amount of food. 
+<p />
+With only half the amount of food being fed to chicks, lower chick survival rates result. Breeding success and chick survival rates are substantially higher in Chile (average 1.4 chicks per nest) than in the Falklands (average 0.5 chicks per nest). Chicks which do survive in the Falklands are also underweight (2.7kg compared to 3.3kg in Chile), giving Falklands fledglings little chance of surviving their first few weeks at sea. This huge difference in breeding success has resulted in a gradual decline in population, with insufficient chicks and juveniles surviving in the Falklands to replace natural adult mortality.
+</cell>
+  <cell width="260" /> 
+ <cell width="620">
+  Notes:
+ <u>
+  <color r="255" g="231" b="135">made by martin 1990 I'd like to thank http://www.penguins.cl for the information.</color> 
+  </u>
+  </cell>
+  </text>
+  </zoopedia_penguinmagella>
+</ZT2Strings>

@@ -1,0 +1,137 @@
+<ZT2Strings>
+<entityname>
+   <!--animal names-->
+      <PenguinChinstrap>Chinstrap Penguin</PenguinChinstrap>
+      <PenguinChinstrap_stt>Chinstrap Penguin</PenguinChinstrap_stt>
+      <PenguinChinstrap_lower>the Chinstrap Penguin</PenguinChinstrap_lower>
+      <PenguinChinstrap_ltt>
+         <color r="255" g="248" b="178">
+            <b>Chinstrap Penguin</b>
+         </color>
+         <br/>
+         Click to select and then place the Chinstrap Penguin, a penguin with a black line on its chin.
+      </PenguinChinstrap_ltt>
+<!--egg names-->
+      <PenguinChinstrap_Egg>Chinstrap Penguin egg</PenguinChinstrap_Egg>
+      <PenguinChinstrap_Egg_stt>Chinstrap Penguin egg</PenguinChinstrap_Egg_stt>
+      <PenguinChinstrap_Egg_lower>the Chinstrap Penguin egg</PenguinChinstrap_Egg_lower>
+      <PenguinChinstrap_Egg_ltt>
+         <color r="255" g="248" b="178">
+            <b>Chinstrap Penguin Egg</b>
+         </color>
+         <br/>
+         Click this icon to select the Chinstrap Penguin egg. Move the cursor over the world and click to place the little Chinstrap Penguin egg.
+       </PenguinChinstrap_Egg_ltt>
+      <!--gift names-->
+      <PenguinChinstrap_Gift>Chinstrap Penguin Toy</PenguinChinstrap_Gift>
+      <PenguinChinstrap_Gift_stt>Chinstrap Penguin toy</PenguinChinstrap_Gift_stt>
+      <PenguinChinstrap_Gift_lower>the Chinstrap Penguin toy</PenguinChinstrap_Gift_lower>
+      <PenguinChinstrap_Gift_ltt>
+         <color r="255" g="248" b="178">
+            <b>Chinstrap Penguin toy</b>
+         </color>
+         <br/>Guests who enjoy watching the Chinstrap Penguin will buy this gift.
+      </PenguinChinstrap_Gift_ltt>
+</entityname>
+<zoopedia_penguinchinstrap>
+ <entry>Penguin, Chinstrap</entry>
+ <text>
+  <cell pady="0" width="1000"/>
+  <p/>
+  <cell width="260"/>
+  <cell width="640" height="320" bgimg="ui/zoopedia/topCellBg.dds">
+   <cell width="600" padx="20" pady="20">
+   
+               <cell width="284">
+						 <cell width="96" bgimg="ui/zoopedia/littleBox-128.tga">
+						  <img src="entities/units/animals/PenguinChinstrap/PenguinChinstrap_icon.dds" sx="0" sy="0" sw="64" sh="64" height="96" width="96"/>
+						 </cell>
+						 <cell width="16">
+						  <img src="ui/zoopedia/icon_male.dds" sx="0" sy="0" sw="64" sh="64" width="16" height="16"/>
+						 </cell>
+						 <cell width="16">
+						  <img src="ui/zoopedia/icon_female.dds" sx="0" sy="0" sw="64" sh="64" width="16" height="16"/>
+						 </cell>
+						 <cell width="156"/>
+                  <br/>   
+                  <cell width="32" pady="0">               
+                     <img src="ui/zoopedia/lowrisk.dds" sx="0" sy="0" sw="64" sh="64" width="32" height="32"/>
+                  </cell>                 
+                  <cell width="224" padx="10" pady="0">
+                     <color r="255" g="255" b="255">
+                     Conservation Status:
+                     <br/>
+                        <color r="0" g="255" b="0">
+                      Low Risk
+                        </color>
+                     </color>                  
+                  </cell>
+               </cell>   
+   
+    <cell width="128">
+     <color r="255" g="255" b="255">Tundra<br/></color>
+     <img src="ui/icon_biomes/icon_tundra.dds" sx="0" sy="0" sw="128" sh="128" width="96" height="96"/>
+    </cell>
+    <cell width="128">
+     <color r="255" g="255" b="255">Sub-Antarctic Islands<br/></color> 
+     <img src="ui/icon_maplocations/Tundra_Subantarctica.dds" sx="0" sy="0" sw="256" sh="256" width="96" height="96"/>
+    </cell>
+    <br/>
+    <cell width="284" pady="10">
+     <color r="255" g="255" b="255">Class: Birds <i>(Aves)</i><br/>Order: Penguins <i>(Sphenisciformes)</i><br/>Family: Penguins <i>(Spheniscidae)</i><br/>Genus: <i>Pygoscelis</i><br/>Species: <i>antarctica</i>
+     </color>
+    </cell>
+    <cell width="256" pady="10">
+     <img src="UI/zoopedia/biome/tundra_zoopedia_biomebrush.dds" sx="0" sy="0" sw="256" sh="85"/>
+    </cell>
+   </cell>
+  </cell>
+  <p/>
+  <p/>
+  <cell width="260"/>
+  <cell width="300">
+   <cell width="64">
+    <img src="ui/zoopedia/fact-icon64.tga" sx="0" sy="0" sw="64" sh="64"/>
+   </cell>
+   <cell width="176">
+    <color r="255" g="255" b="255">
+     <font name="arial" size="12" shadowx="2" shadowy="1" shadowa="50">Fun Chinstrap Penguin Facts</font>
+    </color>
+   </cell>
+   <p/>
+   <cell width="280" bgimg="ui/zoopedia/factBG.tga" padx="10">
+    <p/>
+    <cell width="32" pady="10">
+     <img src="ui/zoopedia/fact-bullet.tga" sx="0" sy="0" sw="32" sh="32"/>
+    </cell>
+    <cell width="202" pady="10">
+     <color r="255" g="255" b="255">Chinstraps are regarded as one of the bolder and more pugnacious of the17 penguin species.</color>
+    </cell>
+	<cell width="32" pady="10">
+		<img src="ui/zoopedia/fact-bullet.tga" sx="0" sy="0" sw="32" sh="32"/>
+	</cell>    
+    <cell width="202" pady="10">
+     <color r="255" g="255" b="255">They can dive to a maximum of 230 feet; with most dives lasting for just half a minute.</color>
+    </cell>
+	<cell width="32" pady="10">
+		<img src="ui/zoopedia/fact-bullet.tga" sx="0" sy="0" sw="32" sh="32"/>
+	</cell>            
+    <cell width="202" pady="10">
+     <color r="255" g="255" b="255">Although Chinstrap penguins are not considered to be migratory, they do leave their colonies and move north of the pack ice in March through to early May for the winter.</color>     
+    </cell>
+  </cell>
+  </cell>
+  <cell width="340">
+   <color r="255" g="248" b="178">
+    To unlock the Chinstrap Penguin in challenge or campaign games, you must earn a 2-star zoo fame rating for your zoo.
+   </color>
+   <p/>The Chinstrap Penguins are the most numerous penguins in the world. It is estimated there are 12 to 13 million located on the barren islands of the sub-Antarctic Region and the Antarctic Peninsula. These penguins live and breed in large colonies. They often live on large icebergs on the open ocean. They dive off to catch fish and krill. They are the boldest penguin and are most likely to fight other penguins.<p/>They got their name from the thin curved line of black feathers running under the chin. They stand about 28 inches (72 cm) tall and weigh about 9 to 14 lbs. (3.5 to 5 kg). The weight of the adults vary during the year. They are the heaviest during the molting season and the lightest during the brooding period. They are sometime called "Stone cracker Penguins" because of their high pitched call.<p/>Chinstrap penguins make a round nest out of stones and pebbles. The female lays two eggs and the eggs are kept warm by both male and female. They do this by taking turns for 5 to 10 days, while the other mate is feeding. The eggs hatch after about 33 to 15 days. The chicks stay in the nest until they are 20 to 30 days old. At this time they have feathers to keep them warm. They join the crèches, which are groups of young penguins huddling together for warmth and protection.
+  </cell>
+  <p/>
+  <cell width="260"/>
+  <cell width="620">
+   Content provided courtesy of<color r="255" g="231" b="135">http://www.siec.k12.in.us/~west/proj/penguins/chinstrap.html</color>Made by Penguinman and recolored by Electric Eel.
+  </cell>
+ </text>
+</zoopedia_penguinchinstrap>
+</ZT2Strings>
